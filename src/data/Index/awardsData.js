@@ -1,0 +1,102 @@
+export const awardsData = {
+  tagline: "How We Shine",
+  title: "Awards and Achievements",
+  projects: [
+    {
+      id: 1,
+      image: "project-1-1.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 2,
+      image: "project-1-2.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 3,
+      image: "project-1-3.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 4,
+      image: "project-1-4.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 5,
+      image: "project-1-1.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 6,
+      image: "project-1-2.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 7,
+      image: "project-1-3.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 8,
+      image: "project-1-4.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 9,
+      image: "project-1-1.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 10,
+      image: "project-1-2.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 11,
+      image: "project-1-3.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 12,
+      image: "project-1-4.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 13,
+      image: "project-1-1.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 14,
+      image: "project-1-2.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 15,
+      image: "project-1-3.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+    {
+      id: 16,
+      image: "project-1-4.jpg",
+      category: "Project List",
+      title: "Substantial Growth",
+    },
+  ],
+};
