@@ -3,7 +3,7 @@ import useActive from "@/hooks/useActive";
 import Link from "next/link";
 import React from "react";
 import { Row } from "react-bootstrap";
-import SingleNews from "./SingleNews";
+import SinglePlan from "./SinglePlan";
 
 const { title, newsData } = paymentPlan;
 
@@ -22,16 +22,14 @@ const PaymentPlan = ({ className = "", showTitle = true, isMore = false }) => {
 
         <Row className="clearfix">
           {newsData.slice(0, showTitle ? 3 : undefined).map((news) => (
-            <SingleNews key={news.id} news={news} />
+            <SinglePlan key={news.id} news={news} />
           ))}
         </Row>
         {isMore && (
           <div className="more-box">
             <Link href="/blog" className="theme-btn btn-style-one">
-
               <i className="btn-curve"></i>
               <span className="btn-title">Download Full Payment Plan</span>
-
             </Link>
           </div>
         )}

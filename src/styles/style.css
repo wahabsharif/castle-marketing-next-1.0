@@ -6126,12 +6126,12 @@ img.lazy-image.loaded {
 .news-block .lower-box h5 {
   text-transform: uppercase;
   font-size: 34px;
-  color: var(--thm-black);
+  color: wheat;
   margin-bottom: 35px;
 }
 
 .news-block .lower-box h5 a {
-  color: var(--thm-black);
+  color: wheat;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
@@ -13764,13 +13764,13 @@ img.lazy-image.loaded {
   display: inline-block;
   background-color: var(--thm-black);
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 16px;
   margin-bottom: 30px;
 }
 
 .portfolio-details-info__image img {
   mix-blend-mode: luminosity;
-  border-radius: 8px;
+  border-radius: 16px;
   max-width: 100%;
 }
 

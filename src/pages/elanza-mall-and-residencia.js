@@ -21,9 +21,9 @@ const ElanzaMallAndResidencia = () => {
       <SearchPopup />
       <Banner title="Elanza Mall & Residencia" />
       <Intro />
+      <PaymentPlan showTitle={false} isMore />
       <Details />
       <Video />
-      <PaymentPlan showTitle={false} isMore />
       <GallerySection similar />
       <MainFooter />
     </Layout>
