@@ -4,20 +4,20 @@ export const bannerTwo = [
   {
     id: 1,
     bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Welcom to Castle Marketings",
+    title: "We have best investment areas",
   },
   {
     id: 2,
     bg: "1.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Welcom to Castle Marketings",
+    title: "We have best investment areas",
   },
   {
     id: 3,
     bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    subtitle: "Welcom to Castle Marketings",
+    title: "We have best investment areas",
   },
 ];
 
@@ -69,14 +69,14 @@ export const bannerOnePage = [
   {
     id: 1,
     bg: "2-1.jpg",
-    subtitle: "welcome to Linoor agency",
+    subtitle: "Welcom to Castle Marketings",
     title: "new linoor agency",
     videoId: "Get7rqXYrbQ",
   },
   {
     id: 2,
     bg: "2-2.jpg",
-    subtitle: "welcome to Linoor agency",
+    subtitle: "Welcom to Castle Marketings",
     title: "new linoor agency",
     videoId: "Get7rqXYrbQ",
   },

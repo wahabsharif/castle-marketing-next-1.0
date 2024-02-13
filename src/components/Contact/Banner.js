@@ -1,4 +1,4 @@
-import bg from "@/images/background/image-7.jpg";
+import bg from "@/images/contact-us-banner.png";
 import Link from "next/link";
 import React from "react";
 
@@ -27,7 +27,9 @@ const PageBanner = ({
                 </li>
                 {parent && (
                   <li>
-                    <Link href={parentHref} legacyBehavior>{parent}</Link>
+                    <Link href={parentHref} legacyBehavior>
+                      {parent}
+                    </Link>
                   </li>
                 )}
                 <li className="active">{page || title}</li>

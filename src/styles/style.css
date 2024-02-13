@@ -1,4 +1,3 @@
-/* Linoor - DIgital Agency HTML Template  */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -88,7 +87,7 @@
 :root {
   --thm-font: "Teko", sans-serif;
   --thm-b-font: "Rubik", sans-serif;
-  --thm-base: #ffaa17;
+  --thm-base: #e8db6b;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
   --thm-text: #686a6f;
@@ -6632,8 +6631,8 @@ img.lazy-image.loaded {
 ***/
 .main-footer {
   position: relative;
-  color: #999b9f;
-  background: var(--thm-black) url(../assets/images/background/footer-bg.png) center top no-repeat;
+  color: white;
+  background: var(--thm-black) url(../assets/images/footer-bg.jpg) center top no-repeat;
 }
 
 .main-footer .widgets-section {
@@ -6700,7 +6699,7 @@ img.lazy-image.loaded {
 
 .main-footer .links-widget ul li a {
   position: relative;
-  color: #999b9f;
+  color: white;
   line-height: 30px;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -6750,7 +6749,7 @@ img.lazy-image.loaded {
 .main-footer .social-links li a {
   position: relative;
   display: block;
-  color: #999b9f;
+  color: white;
   font-size: 16px;
   width: 44px;
   height: 44px;
@@ -6798,7 +6797,7 @@ img.lazy-image.loaded {
 
 .main-footer .info-widget ul li a {
   position: relative;
-  color: #999b9f;
+  color: white;
   line-height: 28px;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -12965,7 +12964,7 @@ img.lazy-image.loaded {
 }
 
 #styleOptions li a.color-default {
-  background-color: #ffaa17;
+  background-color: #e8db6b;
 }
 
 #styleOptions li a.color-2 {
@@ -20785,7 +20784,7 @@ img.lazy-image.loaded {
   position: absolute;
   top: 10px;
   left: 0;
-  color: #ffaa17;
+  color: #e8db6b;
   font-size: 20px;
 }
 

@@ -1,4 +1,4 @@
-import demoBg from "@/images/background/footer-bg-2.jpg";
+import demoBg from "@/images/footer-bg.jpg";
 import logo from "@/images/caslte-marketing-landscape-white.png";
 
 export const mainFooter = {
