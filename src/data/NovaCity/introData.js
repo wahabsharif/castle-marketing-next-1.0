@@ -1,6 +1,6 @@
 export const introData = {
   images: ["featured-image-18.jpg", "featured-image-19.jpg"],
   title: "Introduction.",
-  text: "Elanza Mall & Residency, situated in Gulberg Residencia D Markaz Islamabad, is an exclusive mixed-use project by Castle Builders (Pvt) Limited. Featuring shops, offices, and apartments, it stands out as one of the initial commercial developments in D Markaz. Construction is underway, with limited unit bookings available on a first-come, first-served basis. Boasting modern architecture, the project promises a lucrative investment opportunity and a prime business location in the bustling heart of Gulberg Islamabad.",
-  proximity: "Jessica Brown",
+  text: "Nova Group has successfully developed the splendid Nova City Islamabad, adding to its portfolio of prestigious luxury housing ventures across various cities in Pakistan. Owned by Mr. Chaudary Junaid Afzal, a knowledgeable and astute individual, the company is recognized for delivering exceptional real estate services. Mr. Afzal ensures that all of his projects comply with global design and construction standards, reflecting the company's commitment to quality and excellence.",
+  proximity: "Easy Access To The M-2 Motorway.",
 };

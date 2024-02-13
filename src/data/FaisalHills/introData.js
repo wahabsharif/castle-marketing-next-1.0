@@ -1,6 +1,6 @@
 export const introData = {
   images: ["featured-image-18.jpg", "featured-image-19.jpg"],
   title: "Introduction.",
-  text: "Elanza Mall & Residency, situated in Gulberg Residencia D Markaz Islamabad, is an exclusive mixed-use project by Castle Builders (Pvt) Limited. Featuring shops, offices, and apartments, it stands out as one of the initial commercial developments in D Markaz. Construction is underway, with limited unit bookings available on a first-come, first-served basis. Boasting modern architecture, the project promises a lucrative investment opportunity and a prime business location in the bustling heart of Gulberg Islamabad.",
-  proximity: "Jessica Brown",
+  text: "Faisal Hills offers a residential sanctuary that harmoniously blends the untouched beauty of its natural surroundings with the majestic Margalla Hills. Providing an opportunity for unparalleled ownership and luxury living in Islamabad, celebrated for its scenic beauty, Faisal Hills is situated within a secure gated community. It effortlessly integrates modern culture with sought-after amenities, paying homage to the ancient Gandhara Civilization's rich heritage. Our dedicated team is devoted to creating projects that embody modern design, forward-thinking, robust construction, and exceptional project management, positively impacting both communities and organizations in the long term.",
+  proximity: "Easy accessibility from Islamabad, Rawalpindi, and Taxila.",
 };

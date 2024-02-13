@@ -1,6 +1,7 @@
 export const introData = {
   images: ["featured-image-18.jpg", "featured-image-19.jpg"],
   title: "Introduction.",
-  text: "Elanza Mall & Residency, situated in Gulberg Residencia D Markaz Islamabad, is an exclusive mixed-use project by Castle Builders (Pvt) Limited. Featuring shops, offices, and apartments, it stands out as one of the initial commercial developments in D Markaz. Construction is underway, with limited unit bookings available on a first-come, first-served basis. Boasting modern architecture, the project promises a lucrative investment opportunity and a prime business location in the bustling heart of Gulberg Islamabad.",
-  proximity: "Jessica Brown",
+  text: "Faisal Town represents a pioneering project, a testament to the unwavering confidence in the vision, expertise, and delivery capabilities of our CEO, Ch. Abdul Majeed. Approved by RDA and compliant with all legal formalities, Faisal Town is strategically positioned on Main Fateh Jang Road, N-80, near the Tarnol Interchange on Motorway M-1 in Rawalpindi.",
+  proximity:
+    "10-minute drive away from the New Islamabad International Airport",
 };

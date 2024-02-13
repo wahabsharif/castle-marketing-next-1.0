@@ -1,6 +1,6 @@
 export const introData = {
   images: ["featured-image-18.jpg", "featured-image-19.jpg"],
   title: "Introduction.",
-  text: "Elanza Mall & Residency, situated in Gulberg Residencia D Markaz Islamabad, is an exclusive mixed-use project by Castle Builders (Pvt) Limited. Featuring shops, offices, and apartments, it stands out as one of the initial commercial developments in D Markaz. Construction is underway, with limited unit bookings available on a first-come, first-served basis. Boasting modern architecture, the project promises a lucrative investment opportunity and a prime business location in the bustling heart of Gulberg Islamabad.",
-  proximity: "Jessica Brown",
+  text: "Gulberg Islamabad, a venture by Intelligence Bureau Employee's Cooperative Housing Society (IBECHS), stands out among numerous housing societies in Rawalpindi and Islamabad. Just 15 minutes from Gulberg to central Islamabad, it offers a 10-minute drive to the airport and a 5-minute drive to G.T. Road. Gulberg's green and residential sectors have transformed dreams into reality. The Knowledge Village is emerging with schools, colleges, and universities, while 5-star hotels and shopping malls are in progress. Launched in 2005, Gulberg Islamabad secured CDA approval in 2009 (Ref# “CDA/PLW-HS(127)/2009/257”) and initiated development work the same year.",
+  proximity: "0 Kilometer from Expressway",
 };

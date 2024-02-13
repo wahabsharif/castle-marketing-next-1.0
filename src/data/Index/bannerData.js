@@ -5,26 +5,26 @@ export const bannerTwo = [
     id: 1,
     bg: "2.jpg",
     subtitle: "Welcom to Castle Marketings",
-    title: "We have best investment areas",
+    title: "Achieve Wealth through Investments.",
   },
   {
     id: 2,
     bg: "1.jpg",
     subtitle: "Welcom to Castle Marketings",
-    title: "We have best investment areas",
+    title: "Achieve Wealth through Investments.",
   },
   {
     id: 3,
     bg: "2.jpg",
     subtitle: "Welcom to Castle Marketings",
-    title: "We have best investment areas",
+    title: "Achieve Wealth through Investments.",
   },
 ];
 
 export const bannerOne = {
   bg,
   dayRange: "mon - fri",
-  timeRange: "9am - 7pm",
+  timeRange: "10am - 7pm",
   socials: [
     {
       id: 1,
