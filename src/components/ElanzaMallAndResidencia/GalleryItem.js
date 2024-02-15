@@ -27,7 +27,9 @@ const GalleryItem = ({ item = {} }) => {
             </div>
             <div className="title">
               <h5>
-                <Link href="/portfolio-single" legacyBehavior>{title}</Link>
+                <Link href="/portfolio-single" legacyBehavior>
+                  {title}
+                </Link>
               </h5>
             </div>
           </div>

@@ -10,7 +10,7 @@ import Details from "@/components/FaisalHills/Details";
 import Intro from "@/components/FaisalHills/Intro";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import PaymentPlan from "@/components/FaisalHills/PaymentPlan";
+// import PaymentPlan from "@/components/FaisalHills/PaymentPlan";
 
 const FaisalHills = () => {
   return (
@@ -21,7 +21,7 @@ const FaisalHills = () => {
       <SearchPopup />
       <Banner title="Faisal Hills" />
       <Intro />
-      <PaymentPlan showTitle={false} isMore />
+      {/* <PaymentPlan showTitle={false} isMore /> */}
       <Details />
       <Video />
       <GallerySection similar />

@@ -27,10 +27,15 @@ const PaymentPlan = ({ className = "", showTitle = true, isMore = false }) => {
         </Row>
         {isMore && (
           <div className="more-box">
-            <Link href="/blog" className="theme-btn btn-style-one">
+            <a
+              href="/pdf/payment-plan-blue-world-city-awami-block.pdf"
+              className="theme-btn btn-style-one"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="btn-curve"></i>
               <span className="btn-title">Download Full Payment Plan</span>
-            </Link>
+            </a>
           </div>
         )}
       </div>

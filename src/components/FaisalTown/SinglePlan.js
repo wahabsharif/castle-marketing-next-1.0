@@ -6,15 +6,13 @@ const SinglePlan = ({ news = {} }) => {
   const { image, duration, size, installment, title, text } = news;
 
   return (
-    <Col lg={4} md={6} sm={12} className="news-block animated fadeInUp">
+    <Col lg={12} md={12} sm={12} className="news-block animated fadeInUp">
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/blog-single">
-            <Image
-              src={require(`@/images/resource/${image}`).default.src}
-              alt=""
-            />
-          </Link>
+          <Image
+            src={require(`@/images/faisal-town/${image}`).default.src}
+            alt=""
+          />{" "}
         </div>
         <div className="lower-box">
           <div className="post-meta">
@@ -30,12 +28,12 @@ const SinglePlan = ({ news = {} }) => {
               </li>
             </ul>
           </div>
-          <h5>
-            <Link href="/blog-single" legacyBehavior>
+          {/* <h5>
+            <Link href="#" legacyBehavior>
               {title}
             </Link>
-          </h5>
-          <div className="text">{text}</div>
+          </h5> */}
+          {/* <div className="text">{text}</div> */}
         </div>
       </div>
     </Col>

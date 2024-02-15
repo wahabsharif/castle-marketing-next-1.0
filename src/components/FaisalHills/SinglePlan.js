@@ -11,7 +11,7 @@ const SinglePlan = ({ news = {} }) => {
         <div className="image-box">
           <Link href="/blog-single">
             <Image
-              src={require(`@/images/resource/${image}`).default.src}
+              src={require(`@/images/faisal-hills/${image}`).default.src}
               alt=""
             />
           </Link>
