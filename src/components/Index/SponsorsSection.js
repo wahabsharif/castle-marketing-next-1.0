@@ -46,6 +46,12 @@ const SponsorsSection = ({ className = "" }) => {
     <section className={`sponsors-section ${className}`}>
       <div className="sponsors-outer">
         <div className="auto-container">
+          <div className="sec-title centered">
+            <h2>
+              Our Sponsors
+              <span className="dot">.</span>
+            </h2>
+          </div>
           <div className="sponsors-carousel">
             <TinySlider
               options={{ ...settings, container: `.my-slider-15` }}
@@ -61,7 +67,7 @@ const SponsorsSection = ({ className = "" }) => {
                     <a href="#">
                       <Image
                         src={
-                          require(`@/images/clients/${
+                          require(`@/images/sponsors/${
                             className.includes("dark") ? "dark-1.png" : image
                           }`).default.src
                         }
