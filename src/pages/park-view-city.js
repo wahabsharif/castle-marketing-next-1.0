@@ -4,7 +4,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/ParkViewCity/Banner";
-import GallerySection from "@/components/ParkViewCity/GallerySection";
+import GallerySection from "@/components/GallerySection/GallerySection";
 import Video from "@/components/ParkViewCity/Video";
 import Details from "@/components/ParkViewCity/Details";
 import Intro from "@/components/ParkViewCity/Intro";

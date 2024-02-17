@@ -4,7 +4,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/NovaCity/Banner";
-import GallerySection from "@/components/NovaCity/GallerySection";
+import GallerySection from "@/components/GallerySection/GallerySection";
 import Video from "@/components/NovaCity/Video";
 import Details from "@/components/NovaCity/Details";
 import Intro from "@/components/NovaCity/Intro";

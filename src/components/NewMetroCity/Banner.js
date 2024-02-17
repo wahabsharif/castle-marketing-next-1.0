@@ -1,4 +1,4 @@
-import bg from "@/images/background/image-7.jpg";
+import bg from "@/images/new-metro-city/new-metro-city-banner.png";
 import Link from "next/link";
 import React from "react";
 
@@ -22,7 +22,9 @@ const Banner = ({ title = "", page = "", parent = "", parentHref = "/" }) => {
                 </li>
                 {parent && (
                   <li>
-                    <Link href={parentHref} legacyBehavior>{parent}</Link>
+                    <Link href={parentHref} legacyBehavior>
+                      {parent}
+                    </Link>
                   </li>
                 )}
                 <li className="active">{page || title}</li>

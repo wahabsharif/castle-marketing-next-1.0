@@ -14,10 +14,7 @@ const GalleryItem = ({ item = {} }) => {
     >
       <div className="inner-box">
         <figure className="image">
-          <Image
-            src={require(`@/images/gallery/${image}`).default.src}
-            alt=""
-          />
+          <Image src={require(`/public/gallery/${image}`).default.src} alt="" />
         </figure>
         <a className="lightbox-image overlay-box"></a>
         <div className="cap-box">

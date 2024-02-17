@@ -3,7 +3,7 @@ import useActive from "@/hooks/useActive";
 import Link from "next/link";
 import React, { useState } from "react";
 import Masonry from "react-masonry-component";
-import GalleryItem from "./GalleryItem";
+import GalleryItem from "@/components/GallerySection/GalleryItem";
 
 const masonryOptions = {
   transitionDuration: 500,

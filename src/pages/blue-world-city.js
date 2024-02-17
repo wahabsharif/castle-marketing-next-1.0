@@ -4,7 +4,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/BlueWorldCity/Banner";
-import GallerySection from "@/components/BlueWorldCity/GallerySection";
+import GallerySection from "@/components/GallerySection/GallerySection";
 import Video from "@/components/BlueWorldCity/Video";
 import Details from "@/components/BlueWorldCity/Details";
 import Intro from "@/components/BlueWorldCity/Intro";

@@ -1,4 +1,4 @@
-import image1 from "@/images/resource/featured-image-1.jpg";
+import image1 from "@/images/ceo-castle-marketing-fawad-khan-marwat.png";
 
 export const ceoData = {
   image1,

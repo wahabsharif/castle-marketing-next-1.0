@@ -4,7 +4,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/TheArcadia/Banner";
-import GallerySection from "@/components/TheArcadia/GallerySection";
+import GallerySection from "@/components/GallerySection/GallerySection";
 import Video from "@/components/TheArcadia/Video";
 import Details from "@/components/TheArcadia/Details";
 import Intro from "@/components/TheArcadia/Intro";

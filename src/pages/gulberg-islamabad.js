@@ -4,7 +4,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/GulbergIslamabad/Banner";
-import GallerySection from "@/components/GulbergIslamabad/GallerySection";
+import GallerySection from "@/components/GallerySection/GallerySection";
 import Video from "@/components/GulbergIslamabad/Video";
 import Details from "@/components/GulbergIslamabad/Details";
 import Intro from "@/components/GulbergIslamabad/Intro";

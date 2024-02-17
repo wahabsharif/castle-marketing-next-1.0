@@ -1,9 +1,8 @@
-import { gallerySectionData } from "@/data/BlueWorldCity/gallerySectionData";
 import useActive from "@/hooks/useActive";
-import Link from "next/link";
 import React, { useState } from "react";
 import Masonry from "react-masonry-component";
 import GalleryItem from "./GalleryItem";
+import { gallerySectionData } from "./gallerySectionData";
 
 const masonryOptions = {
   transitionDuration: 500,
@@ -33,7 +32,7 @@ const GallerySection = ({ portfolio = false, similar = false }) => {
             {!portfolio && (
               <div className={`sec-title${similar ? " centered" : ""}`}>
                 <h2>
-                  {similar ? "Similar work " : title}
+                  {similar ? "" : title}
                   <span className="dot">.</span>
                 </h2>
               </div>
@@ -66,14 +65,6 @@ const GallerySection = ({ portfolio = false, similar = false }) => {
               <GalleryItem item={item} key={item.id} />
             ))}
           </Masonry>
-          {portfolio && (
-            <div className="more-box">
-              <Link href="/portfolio" className="theme-btn btn-style-one">
-                <i className="btn-curve"></i>
-                <span className="btn-title">Load more work</span>
-              </Link>
-            </div>
-          )}
         </div>
       </div>
     </section>
