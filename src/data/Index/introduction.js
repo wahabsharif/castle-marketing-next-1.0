@@ -33,11 +33,11 @@ const introduction = {
     },
   ],
   textList: [
-    "Nsectetur cing elit.",
-    "Suspe ndisse suscipit sagittis leo.",
-    "Entum estibulum dignissim posuere.",
-    "If you are going to use a passage.",
-    "Lorem Ipsum on the tend to repeat.",
+    "Premier Real Estate Services.",
+    "Professional Team Expertise.",
+    "Secure Investment Platform.",
+    "Client Satisfaction Priority.",
+    "Excellence in Real Estate.",
   ],
 };
 

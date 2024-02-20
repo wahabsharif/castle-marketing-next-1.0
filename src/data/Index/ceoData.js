@@ -5,11 +5,11 @@ export const ceoData = {
   title: "Fawad Khan",
   text1: "CEO And Founder",
   text2:
-    "Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever.",
+    "Fawad Khan Marwat, a dynamic professional in the real estate industry, brings a wealth of expertise to Castle Marketing. With a commitment to excellence, he leads a professional team dedicated to providing top-notch services. Fawad's strategic guidance ensures secure investments, prioritizing client satisfaction and realizing dreams.",
   textList: [
-    "Suspe ndisse suscipit sagittis leo.",
-    "Entum estibulum dignissim posuere.",
-    "If you are going to use a passage.",
+    "Dynamic Real Estate Professional.",
+    "Strategic Leadership Expertise.",
+    "Commitment to Excellence.",
   ],
-  since: "2000",
+  since: "2018",
 };

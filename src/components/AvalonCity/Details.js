@@ -11,10 +11,7 @@ const Details = () => {
             <Col md={6}>
               <div className="portfolio-details-info__image">
                 <Image
-                  src={
-                    require(`@/images/update-26-02-2021/resources/${image}`)
-                      .default.src
-                  }
+                  src={require(`@/images/avalon-city/${image}`).default.src}
                   alt=""
                 />
               </div>

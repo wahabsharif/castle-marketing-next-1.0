@@ -29,7 +29,12 @@ const PaymentPlan = ({ className = "", showTitle = true, isMore = false }) => {
         </Row>
         {isMore && (
           <div className="more-box">
-            <Link href="/blog" className="theme-btn btn-style-one">
+            <Link
+              href="/pdf/elanza-mall-and-residencia-payment-plan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="theme-btn btn-style-one"
+            >
               <i className="btn-curve"></i>
               <span className="btn-title">Download</span>
             </Link>

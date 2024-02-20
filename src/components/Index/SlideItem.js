@@ -22,9 +22,9 @@ const SlideItem = ({ slide = {} }, ref) => {
           <div className="content">
             <div className="inner">
               <div className="sub-title">{subtitle}</div>
-              <h1>
+              <h2>
                 <TextSplit text={title} />
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

@@ -12,8 +12,7 @@ const Details = () => {
               <div className="portfolio-details-info__image">
                 <Image
                   src={
-                    require(`@/images/update-26-02-2021/resources/${image}`)
-                      .default.src
+                    require(`@/images/gulberg-islamabad/${image}`).default.src
                   }
                   alt=""
                 />

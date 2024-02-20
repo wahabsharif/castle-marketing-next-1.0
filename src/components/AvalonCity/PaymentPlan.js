@@ -25,14 +25,14 @@ const PaymentPlan = ({ className = "", showTitle = true, isMore = false }) => {
             <SinglePlan key={news.id} news={news} />
           ))}
         </Row>
-        {isMore && (
+        {/* {isMore && (
           <div className="more-box">
             <Link href="/blog" className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Download Full Payment Plan</span>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
