@@ -9,14 +9,14 @@ const items2 = [
   },
   {
     id: 2,
-    image: "11.jpg",
+    image: "elanza-mall.png",
     title: "Elanza Mall & Residencia",
     tagline: "Project",
     filter: ["all", "projects"],
   },
   {
     id: 3,
-    image: "11.jpg",
+    image: "the-arcadia.png",
     title: "The Arcadia",
     tagline: "Project",
     filter: ["all", "projects"],
@@ -25,64 +25,64 @@ const items2 = [
   // Societies
 
   {
-    id: 3,
-    image: "11.jpg",
+    id: 4,
+    image: "parkview-city.png",
     title: "Parkviewcity Islamabad",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 4,
-    image: "11.jpg",
+    id: 5,
+    image: "silver-city.png",
     title: "Silver City",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 5,
-    image: "11.jpg",
+    id: 6,
+    image: "gulberg-islamabad.png",
     title: "Gulberg Islamabad",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 6,
-    image: "faisal-town.jpg",
+    id: 7,
+    image: "faisal-town.png",
     title: "Faisal Town",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 7,
-    image: "11.jpg",
+    id: 8,
+    image: "faisal-hills.png",
     title: "Faisal Hills",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 8,
-    image: "11.jpg",
+    id: 9,
+    image: "new-metro-city.png",
     title: "New metro city",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 9,
-    image: "11.jpg",
+    id: 10,
+    image: "avalon-city.png",
     title: "Avalon city",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 10,
-    image: "11.jpg",
+    id: 11,
+    image: "nova-city.png",
     title: "Nova city",
     tagline: "Society",
     filter: ["all", "societies"],
   },
   {
-    id: 1,
-    image: "11.jpg",
+    id: 12,
+    image: "blue-world-city.png",
     title: "Blue World City",
     tagline: "Society",
     filter: ["all", "societies"],
@@ -90,7 +90,6 @@ const items2 = [
 ];
 
 export const gallerySectionData = {
-  title: "Our showcase",
   tabBtns: [
     {
       id: 1,

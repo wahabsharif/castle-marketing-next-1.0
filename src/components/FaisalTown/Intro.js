@@ -23,7 +23,9 @@ const Intro = ({ portfolio = 1 }) => {
                   <figure key={i} className="image-box">
                     <a className="lightbox-image" data-fancybox="gallery">
                       <Image
-                        src={require(`@/images/resource/${image}`).default.src}
+                        src={
+                          require(`@/images/faisal-town/${image}`).default.src
+                        }
                         alt=""
                       />
                     </a>

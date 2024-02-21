@@ -3,18 +3,16 @@ import React from "react";
 import { Col, Image } from "react-bootstrap";
 
 const GalleryItem = ({ item = {} }) => {
-  const { image, title, tagline, filter } = item;
+  const { image, title, tagline } = item;
 
   return (
-    <Col
-      lg={4}
-      md={6}
-      sm={12}
-      className={`gallery-item position-absolute ${filter.join(" ")}`}
-    >
+    <Col lg={4} md={6} sm={12} className="gallery-item position-absolute">
       <div className="inner-box">
         <figure className="image">
-          <Image src={require(`/public/gallery/${image}`).default.src} alt="" />
+          <Image
+            src={require(`@/images/gallery/${image}`).default.src}
+            alt=""
+          />
         </figure>
         <a className="lightbox-image overlay-box"></a>
         <div className="cap-box">
@@ -24,7 +22,7 @@ const GalleryItem = ({ item = {} }) => {
             </div>
             <div className="title">
               <h5>
-                <Link href="/portfolio-single" legacyBehavior>
+                <Link href="#" legacyBehavior>
                   {title}
                 </Link>
               </h5>

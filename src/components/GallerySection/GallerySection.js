@@ -8,10 +8,10 @@ const masonryOptions = {
   transitionDuration: 500,
 };
 
-const { title, tabBtns, items } = gallerySectionData;
+const { items } = gallerySectionData;
 
-const getCurrentItems = (current = "") =>
-  items.filter((it) => it.filter.includes(current));
+const getCurrentItems = (current = "all") =>
+  current === "all" ? items : items.filter((it) => it.filter.includes(current));
 
 const getCount = (current = "") => getCurrentItems(current).length;
 
@@ -32,7 +32,7 @@ const GallerySection = ({ portfolio = false, similar = false }) => {
             {!portfolio && (
               <div className={`sec-title${similar ? " centered" : ""}`}>
                 <h2>
-                  {similar ? "" : title}
+                  Gallery
                   <span className="dot">.</span>
                 </h2>
               </div>

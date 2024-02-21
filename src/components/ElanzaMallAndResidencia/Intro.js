@@ -1,4 +1,5 @@
 import { introData } from "@/data/ElanzaMallAndRasidencia/introData";
+import GoogleLocation from "@/data/ElanzaMallAndRasidencia/googleLocation";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
@@ -30,7 +31,9 @@ const Intro = ({ portfolio = 1 }) => {
                   <figure key={i} className="image-box">
                     <a className="lightbox-image" data-fancybox="gallery">
                       <Image
-                        src={require(`@/images/resource/${image}`).default.src}
+                        src={
+                          require(`@/images/elanza-mall/${image}`).default.src
+                        }
                         alt=""
                       />
                     </a>
@@ -62,12 +65,8 @@ const Intro = ({ portfolio = 1 }) => {
                           {proximity}
                         </li>
                         <li>
-                          <strong>Health Care:</strong> <br />
-                          {healthCare}
-                        </li>
-                        <li>
-                          <strong>payment Flexibility:</strong> <br />
-                          {paymentFlexibility}
+                          <strong>Google Location:</strong> <br />
+                          <GoogleLocation />
                         </li>
                       </ul>
                     </div>

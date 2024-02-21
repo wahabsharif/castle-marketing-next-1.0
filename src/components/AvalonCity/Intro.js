@@ -23,7 +23,9 @@ const Intro = ({ portfolio = 1 }) => {
                   <figure key={i} className="image-box">
                     <a className="lightbox-image" data-fancybox="gallery">
                       <Image
-                        src={require(`@/images/resource/${image}`).default.src}
+                        src={
+                          require(`@/images/avalon-city/${image}`).default.src
+                        }
                         alt=""
                       />
                     </a>
@@ -53,15 +55,21 @@ const Intro = ({ portfolio = 1 }) => {
                           <strong>proximity:</strong> <br />
                           {proximity}
                         </li>
-                        <li>
-                          <strong>Google Location:</strong> <br />
-                          <GoogleLocation />
-                        </li>
                       </ul>
                     </div>
                   </Col>
                 </Row>
               </div>
+            </div>
+          </Col>
+          <Col lg={portfolio === 2 ? 4 : 12} md={12} sm={12}>
+            <div className={portfolio === 2 ? "inner" : ""}>
+              <ul className="info">
+                <li>
+                  <h4 className="text-center">Google Location.</h4>
+                  <GoogleLocation />
+                </li>
+              </ul>
             </div>
           </Col>
         </Row>

@@ -1,4 +1,4 @@
-import { opportunitiesData } from "@/data/Index/opportunitiesData";
+import { gallerySectionData } from "@/components/GallerySection/gallerySectionData";
 import useActive from "@/hooks/useActive";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -9,7 +9,7 @@ const masonryOptions = {
   transitionDuration: 500,
 };
 
-const { title, tabBtns, items } = opportunitiesData;
+const { tabBtns, items } = gallerySectionData;
 
 const getCurrentItems = (current = "") =>
   items.filter((it) => it.filter.includes(current));
@@ -33,7 +33,7 @@ const Opportunities = ({ portfolio = false, similar = false }) => {
             {!portfolio && (
               <div className={`sec-title${similar ? " centered" : ""}`}>
                 <h2>
-                  {similar ? "Similar work " : title}
+                  Investment Oppotunities
                   <span className="dot">.</span>
                 </h2>
               </div>
