@@ -1,5 +1,3 @@
-"useClient";
-
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import ContextProvider from "@/context/ContextProvider";
 import "@/vendors/animate.css";
@@ -19,10 +17,13 @@ import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
 
+import FloatingWhatsApp from "@/components/FloatingWhatsApp/index";
+
 const MyApp = ({ Component, pageProps }) => {
   return (
     <ContextProvider>
       <Component {...pageProps} />
+      <FloatingWhatsApp />
     </ContextProvider>
   );
 };

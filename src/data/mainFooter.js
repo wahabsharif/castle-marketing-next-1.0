@@ -9,6 +9,8 @@ export const mainFooter = {
   text: "Grow Rich With Commercial Investment.",
   address:
     "Office No.2, 4th floor, Buland Markaz, Jinnah Avenue, Blue area, Islamabad, Pakistan.",
+  address:
+    "Office No.2, 4th floor, Buland Markaz, Jinnah Avenue, Blue area, Islamabad, Pakistan.",
 
   phone: "+92 317 5074721",
 
