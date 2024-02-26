@@ -21,10 +21,10 @@ const SlideItem = ({ slide = {} }, ref) => {
         <div className="content-box">
           <div className="content">
             <div className="inner">
-              <div className="sub-title">{subtitle}</div>
               <h2>
                 <TextSplit text={title} />
               </h2>
+              <div className="sub-title">{subtitle}</div>
             </div>
           </div>
         </div>

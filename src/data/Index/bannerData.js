@@ -15,9 +15,9 @@ export const bannerTwo = [
   // },
   {
     id: 3,
-    bg: "index-banner-3.png",
-    // subtitle: "Welcom to Castle Marketings",
-    // title: "Achieve Wealth through Investments.",
+    bg: "index-banner-5.jpg",
+    // title: "Welcome to Castle Marketings.",
+    // subtitle: "Achieve Wealth through Investments.",
   },
 ];
 
