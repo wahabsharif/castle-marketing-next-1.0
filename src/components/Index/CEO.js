@@ -4,7 +4,7 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { image1, title, text1, text2, textList, since } = ceoData;
+const { image1, title, text1, text2, textList, signature } = ceoData;
 
 const CEO = () => {
   const ref = useActive("#about");
@@ -39,10 +39,7 @@ const CEO = () => {
                   ))}
                 </ul>
                 <div className="since">
-                  <span className="txt">
-                    Since <br />
-                    {since}
-                  </span>
+                  <Image src={signature.src} alt="" />
                 </div>
               </div>
             </div>

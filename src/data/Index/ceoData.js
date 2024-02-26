@@ -1,7 +1,9 @@
 import image1 from "@/images/ceo-castle-marketing-fawad-khan-marwat.png";
+import signature from "@/images/fawad-khan-sign-1.png";
 
 export const ceoData = {
   image1,
+  signature,
   title: "Fawad Khan",
   text1: "CEO And Founder",
   text2:
@@ -11,5 +13,4 @@ export const ceoData = {
     "Strategic Leadership Expertise.",
     "Commitment to Excellence.",
   ],
-  since: "2018",
 };
