@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/NewMetroCity/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/NewMetroCity/Video";
+// import Video from "@/components/NewMetroCity/Video";
 import Details from "@/components/NewMetroCity/Details";
 import Intro from "@/components/NewMetroCity/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const NewMetroCity = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/ElanzaMallAndResidencia/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/ElanzaMallAndResidencia/Video";
+// import Video from "@/components/ElanzaMallAndResidencia/Video";
 import Details from "@/components/ElanzaMallAndResidencia/Details";
 import Intro from "@/components/ElanzaMallAndResidencia/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const ElanzaMallAndResidencia = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

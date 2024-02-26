@@ -5,8 +5,8 @@ import Layout from "@/components/Layout/Layout";
 import GallerySection from "@/components/GallerySection/GallerySection";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/CastleHeights/Banner";
-import Video from "@/components/CastleHeights/Video";
-import Details from "@/components/CastleHeights/Details";
+// import Video from "@/components/CastleHeights/Video";
+// import Details from "@/components/CastleHeights/Details";
 import Intro from "@/components/CastleHeights/Intro";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
@@ -22,8 +22,8 @@ const CastleHeights = () => {
       <Banner title="Castle Heights" />
       <Intro />
       <PaymentPlan showTitle={false} isMore />
-      <Details />
-      <Video />
+      {/* <Details /> */}
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/ParkViewCity/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/ParkViewCity/Video";
+// import Video from "@/components/ParkViewCity/Video";
 import Details from "@/components/ParkViewCity/Details";
 import Intro from "@/components/ParkViewCity/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const ParkViewCity = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

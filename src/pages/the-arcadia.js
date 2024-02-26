@@ -5,8 +5,8 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/TheArcadia/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/TheArcadia/Video";
-import Details from "@/components/TheArcadia/Details";
+// import Video from "@/components/TheArcadia/Video";
+// import Details from "@/components/TheArcadia/Details";
 import Intro from "@/components/TheArcadia/Intro";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
@@ -22,8 +22,8 @@ const TheArcadia = () => {
       <Banner title="The Arcadia" />
       <Intro />
       <PaymentPlan showTitle={false} isMore />
-      <Details />
-      <Video />
+      {/* <Details /> */}
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

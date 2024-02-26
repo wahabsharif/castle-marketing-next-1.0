@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/NovaCity/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/NovaCity/Video";
+// import Video from "@/components/NovaCity/Video";
 import Details from "@/components/NovaCity/Details";
 import Intro from "@/components/NovaCity/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const NovaCity = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

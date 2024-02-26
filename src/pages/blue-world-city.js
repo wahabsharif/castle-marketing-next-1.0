@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/BlueWorldCity/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/BlueWorldCity/Video";
+// import Video from "@/components/BlueWorldCity/Video";
 import Details from "@/components/BlueWorldCity/Details";
 import Intro from "@/components/BlueWorldCity/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const BlueWorldCity = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

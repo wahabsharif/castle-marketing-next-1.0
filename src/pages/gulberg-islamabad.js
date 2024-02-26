@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/GulbergIslamabad/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/GulbergIslamabad/Video";
+// import Video from "@/components/GulbergIslamabad/Video";
 import Details from "@/components/GulbergIslamabad/Details";
 import Intro from "@/components/GulbergIslamabad/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const GulbergIslamabad = () => {
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>

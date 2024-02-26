@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/FaisalHills/Banner";
 import GallerySection from "@/components/GallerySection/GallerySection";
-import Video from "@/components/FaisalHills/Video";
+// import Video from "@/components/FaisalHills/Video";
 import Details from "@/components/FaisalHills/Details";
 import Intro from "@/components/FaisalHills/Intro";
 import Style from "@/components/Reuseable/Style";
@@ -23,7 +23,7 @@ const FaisalHills = () => {
       <Intro />
       {/* <PaymentPlan showTitle={false} isMore /> */}
       <Details />
-      <Video />
+      {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
     </Layout>
