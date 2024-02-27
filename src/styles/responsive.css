@@ -109,7 +109,7 @@
     display: none;
   }
 
-  .main-menu .navigation>li {
+  .main-menu .navigation > li {
     margin-right: 30px;
   }
 
@@ -298,9 +298,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-
-  .main-menu .navigation>li>ul,
-  .main-menu .navigation>li>ul>li>ul {
+  .main-menu .navigation > li > ul,
+  .main-menu .navigation > li > ul > li > ul {
     display: block !important;
     visibility: hidden;
     opacity: 0;
@@ -514,7 +513,6 @@
   .mixitup-gallery .filters li {
     margin: 0 15px 10px;
   }
-
   .facts-section,
   .facts-section.alternate {
     padding-top: 90px;
@@ -647,7 +645,7 @@
     font-size: 32px;
   }
 
-  .demo-gallery .mixitup-gallery .filters .filter+.filter {
+  .demo-gallery .mixitup-gallery .filters .filter + .filter {
     margin-left: 25px;
   }
 
@@ -703,7 +701,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-
   .banner-carousel .slide-item .shape-1,
   .banner-carousel .slide-item .shape-2,
   .banner-carousel .slide-item .shape-3,
@@ -925,13 +922,66 @@
   .banner-carousel .content-box h1 {
     font-size: 46px;
   }
-
-  .banner-three .banner-carousel .content-box h1 {
-    font-size: 46px;
-    line-height: 1em;
-    margin-bottom: 10px;
+  .gallery-item .inner-box .image img {
+    -webkit-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  .gallery-item .inner-box .cap-box {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  .banner-carousel .slide-item .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
   }
 
+  .banner-carousel .content-box {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    height: 200px;
+    padding: 0 0px;
+    z-index: 11;
+  }
+
+  .banner-carousel .content-box .content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .banner-carousel .content-box .inner {
+    position: relative;
+    display: block;
+    max-width: 800px;
+  }
+  .agency-section .featured-block-two .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .agency-section .featured-block-two .image img {
+    display: block;
+    justify-content: center;
+    width: 30%;
+    border-radius: 50%;
+  }
   .about-section .image-column .inner:before {
     display: none;
   }
@@ -1299,7 +1349,6 @@
 }
 
 @media only screen and (max-width: 479px) {
-
   .about-section .image-column .image-block,
   .about-section .image-column .image-block:nth-child(1),
   .about-section .image-column .image-block:nth-child(2) {
