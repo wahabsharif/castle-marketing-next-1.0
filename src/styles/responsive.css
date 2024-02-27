@@ -967,6 +967,15 @@
     display: block;
     max-width: 800px;
   }
+  .banner-carousel .tns-controls {
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 50%;
+    width: 1200px;
+    height: 110px;
+    text-align: right;
+  }
   .agency-section .featured-block-two .image {
     position: absolute;
     left: 0;

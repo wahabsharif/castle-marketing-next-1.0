@@ -17,7 +17,7 @@ const settings = {
   autoplay: true,
   autoHeight: true,
   controls: true,
-  // controlsContainer: ".tns-controls",
+  controlsContainer: ".tns-controls",
   gutter: 0,
   autoplayButton: false,
   autoplayButtonOutput: false,
@@ -61,14 +61,14 @@ const Banner = () => {
             <SlideItem key={slide.id} slide={slide} ref={listRef} />
           ))}
         </TinySlider>
-        {/* <div className="tns-controls">
+        <div className="tns-controls">
           <button className="tns-prev">
             <span className="icon fa fa-angle-left"></span>
           </button>
           <button className="tns-next">
             <span className="icon fa fa-angle-right"></span>
           </button>
-        </div> */}
+        </div>
       </div>
     </section>
   );

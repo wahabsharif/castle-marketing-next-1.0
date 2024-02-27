@@ -2,15 +2,15 @@ const items2 = [
   // Projects
   {
     id: 1,
-    image: "11.jpg",
-    title: "Castle Heights",
+    image: "elanza-mall.png",
+    title: "Elanza Mall & Residencia",
     tagline: "Project",
     filter: ["all", "projects"],
   },
   {
     id: 2,
-    image: "elanza-mall.png",
-    title: "Elanza Mall & Residencia",
+    image: "castle-heights.png",
+    title: "Castle Heights",
     tagline: "Project",
     filter: ["all", "projects"],
   },

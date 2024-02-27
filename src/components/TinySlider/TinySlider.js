@@ -14,9 +14,9 @@ const TinySlider = ({ children, options = {}, slider, setSlider }, ref) => {
         setSlider(tns(options));
       }
     } else {
-      // if (!innerSlider) {
-      //   setInnerSlider(tns(options));
-      // }
+      if (!innerSlider) {
+        setInnerSlider(tns(options));
+      }
     }
   }, [setSlider, slider, innerSlider, ref, options]);
 

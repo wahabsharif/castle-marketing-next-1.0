@@ -11,10 +11,10 @@ export const detailsData = [
     title: "Master Plan",
     text: "The master plan of Blue World City Islamabad is a meticulously crafted collaboration with national and international experts, incorporating the latest principles of urban town planning. This ensures a well-designed and modern development that aligns with contemporary standards in city planning.",
   },
-  // {
-  //   id: 3,
-  //   image: "portfolio-d-3-3.jpg",
-  //   title: "Feature & Amenities",
-  //   text: "Blue World City Islamabad, a Pak-China Friendly City, offers an array of features and amenities. The master plan, crafted with national and international expertise, ensures modern urban development. Tourist attractions, a Blue World Economic Zone, a hilltop 5-star hotel, and a 208-feet wide Central Avenue contribute to a luxurious lifestyle.",
-  // },
+  {
+    id: 3,
+    image: "blue-world-city-features.jpg",
+    title: "Feature & Amenities",
+    text: "Blue World City Islamabad, a Pak-China Friendly City, offers an array of features and amenities. The master plan, crafted with national and international expertise, ensures modern urban development. Tourist attractions, a Blue World Economic Zone, a hilltop 5-star hotel, and a 208-feet wide Central Avenue contribute to a luxurious lifestyle.",
+  },
 ];

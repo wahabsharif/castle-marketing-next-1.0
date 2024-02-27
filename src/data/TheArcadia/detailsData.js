@@ -1,8 +1,8 @@
 export const detailsData = [
   {
     id: 1,
-    image: "portfolio-d-3-1.jpg",
-    title: "ABC",
+    image: "the-arcadia-features.jpg",
+    title: "Features",
     text: "Tincidunt elit magnis nulla facilisis sagittis sapien in nunc amet ultrices dolores sit ipsum velit quet massa fringilla leo orci met ultrices, dolores sit ipsum velit massa fringilla leo.",
   },
   {
