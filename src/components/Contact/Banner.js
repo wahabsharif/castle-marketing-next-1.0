@@ -1,4 +1,4 @@
-import bg from "@/images/contact-us-banner.png";
+import bg from "@/images/contact-us-banner.webp";
 import Link from "next/link";
 import React from "react";
 
