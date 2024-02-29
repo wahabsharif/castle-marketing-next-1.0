@@ -1,4 +1,4 @@
-import image from "@/images/investment-icon.png";
+import image from "@/images/investment-icon.webp";
 
 const introduction = {
   image,

@@ -1,13 +1,8 @@
-import bg from "@/images/background/image-7.jpg";
+import bg from "@/images/background/404-glitch.jpg";
 import Link from "next/link";
 import React from "react";
 
-const Banner = ({
-  title = "",
-  page = "",
-  parent = "",
-  parentHref = "/",
-}) => {
+const Banner = ({ title = "", page = "", parent = "", parentHref = "/" }) => {
   return (
     <section className="page-banner">
       <div
@@ -27,7 +22,9 @@ const Banner = ({
                 </li>
                 {parent && (
                   <li>
-                    <Link href={parentHref} legacyBehavior>{parent}</Link>
+                    <Link href={parentHref} legacyBehavior>
+                      {parent}
+                    </Link>
                   </li>
                 )}
                 <li className="active">{page || title}</li>

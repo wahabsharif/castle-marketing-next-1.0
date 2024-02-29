@@ -1,4 +1,4 @@
-import bg from "@/images/new-metro-city/new-metro-city-banner.png";
+import bg from "@/images/new-metro-city/new-metro-city-banner.webp";
 import Link from "next/link";
 import React from "react";
 

@@ -33,7 +33,7 @@ const Opportunities = ({ portfolio = false, similar = false }) => {
             {!portfolio && (
               <div className={`sec-title${similar ? " centered" : ""}`}>
                 <h2>
-                  Investment Oppotunities
+                  Investment Opportunities
                   <span className="dot">.</span>
                 </h2>
               </div>

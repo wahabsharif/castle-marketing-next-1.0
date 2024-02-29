@@ -6596,7 +6596,7 @@ img.lazy-image.loaded {
 .main-footer {
   position: relative;
   color: white;
-  background: var(--thm-black) url(../assets/images/footer-bg.jpg) center top
+  background: var(--thm-black) url(../assets/images/footer-bg.webp) center top
     no-repeat;
 }
 

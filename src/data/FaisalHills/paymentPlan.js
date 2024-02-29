@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "news-1.jpg",
+      image: "news-1.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "news-2.jpg",
+      image: "news-2.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "news-3.jpg",
+      image: "news-3.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "news-4.jpg",
+      image: "news-4.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",
@@ -39,7 +39,7 @@ const paymentPlan = {
     },
     {
       id: 5,
-      image: "news-5.jpg",
+      image: "news-5.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",
@@ -48,7 +48,7 @@ const paymentPlan = {
     },
     {
       id: 6,
-      image: "news-6.jpg",
+      image: "news-6.webp",
       duration: "4 Quarterly",
       size: "10 Marla",
       installment: "200,000",

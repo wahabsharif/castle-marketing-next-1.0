@@ -1,4 +1,4 @@
-import bg from "@/images/gulberg-islamabad/gulberg-banner.png";
+import bg from "@/images/gulberg-islamabad/gulberg-banner.webp";
 import Link from "next/link";
 import React from "react";
 

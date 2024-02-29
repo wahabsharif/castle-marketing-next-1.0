@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import ContextProvider from "@/context/ContextProvider";
 import "@/vendors/animate.css";
 import "@/vendors/custom-animate.css";

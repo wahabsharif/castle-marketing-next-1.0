@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "castle-height-lower-ground-payment-plan.jpg",
+      image: "castle-height-lower-ground-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "219.02 Size/Area",
       installment: "138,408",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "castle-height-ground-floor-payment-plan.jpg",
+      image: "castle-height-ground-floor-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "180 Size/Area",
       installment: "632,659",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "castle-height-first-floor-payment-plan.jpg",
+      image: "castle-height-first-floor-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "359 Size/Area",
       installment: "680,813",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "castle-height-2nd-and-3rd-payment-plan.jpg",
+      image: "castle-height-2nd-and-3rd-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "560 Size/Area",
       installment: "758,753",
@@ -39,7 +39,7 @@ const paymentPlan = {
     },
     {
       id: 5,
-      image: "castle-height-4th-and-7th-floor-payment-plan.jpg",
+      image: "castle-height-4th-and-7th-floor-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "812.97 Size/Area",
       installment: "792,646",
@@ -48,7 +48,7 @@ const paymentPlan = {
     },
     {
       id: 6,
-      image: "castle-height-penthouse-payment-plan.jpg",
+      image: "castle-height-penthouse-payment-plan.webp",
       duration: "12 Quarterly Installments",
       size: "2533 Size/Area",
       installment: "3,842,172",

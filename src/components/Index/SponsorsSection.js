@@ -48,7 +48,7 @@ const SponsorsSection = ({ className = "" }) => {
         <div className="auto-container">
           <div className="sec-title centered">
             <h2>
-              Our Sponsors
+              The brands we Promote
               <span className="dot">.</span>
             </h2>
           </div>

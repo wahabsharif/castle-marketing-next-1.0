@@ -1,5 +1,5 @@
 import icon from "@/images/icons/close-1-1.png";
-import logo1 from "@/images/caslte-marketing-landscape-white.png";
+import logo1 from "@/images/caslte-marketing-landscape-white.webp";
 
 const home = {
   id: 1,
@@ -22,7 +22,7 @@ const navItems = [
       { id: 1, name: "Castle Heights", href: "/castle-heights" },
       {
         id: 2,
-        name: "Elanza Mall & Residencia",
+        name: "Elanza Mall & Residency",
         href: "/elanza-mall-and-residencia",
       },
       { id: 3, name: "The Arcadia", href: "/the-arcadia" },

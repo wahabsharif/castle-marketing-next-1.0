@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "elanza-mall-ground-second-third-floos-payment-plan.jpg",
+      image: "elanza-mall-ground-second-third-floos-payment-plan.webp",
       duration: "",
       size: "505",
       installment: "60,000",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "elanza-mall-lower-and-first-floors-payment-plan.jpg",
+      image: "elanza-mall-lower-and-first-floors-payment-plan.webp",
       duration: "4 Quarterly",
       size: "298",
       installment: "40,000",

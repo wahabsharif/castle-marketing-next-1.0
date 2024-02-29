@@ -1,5 +1,5 @@
-import demoBg from "@/images/footer-bg.jpg";
-import logo from "@/images/caslte-marketing-landscape-white.png";
+import demoBg from "@/images/footer-bg.webp";
+import logo from "@/images/caslte-marketing-landscape-white.webp";
 
 export const mainFooter = {
   logo,

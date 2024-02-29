@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "the-arcadia-lower-ground-floor-payment-plan.jpg",
+      image: "the-arcadia-lower-ground-floor-payment-plan.webp",
       duration: "11 Quarterly Installments",
       size: "226 Size/Area",
       installment: "467,409",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "the-arcadia-ground-floor-payment-plan.jpg",
+      image: "the-arcadia-ground-floor-payment-plan.webp",
       duration: "11 Quarterly Installments",
       size: "415 Size/Area",
       installment: "1,103,523",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "the-arcadia-1st-floor-payment-plan.jpg",
+      image: "the-arcadia-1st-floor-payment-plan.webp",
       duration: "11 Quarterly Installments",
       size: "271 Size/Area",
       installment: "512,436",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "the-arcadia-2nd-floor-payment-plan.jpg",
+      image: "the-arcadia-2nd-floor-payment-plan.webp",
       duration: "11 Quarterly Installments",
       size: "473 Size/Area",
       installment: "503,100",
@@ -39,7 +39,7 @@ const paymentPlan = {
     },
     // {
     //   id: 5,
-    //   image: "news-5.jpg",
+    //   image: "news-5.webp",
     //   duration: "4 Quarterly Installments",
     //   size: "10 Size/Area",
     //   installment: "200,000",
@@ -48,7 +48,7 @@ const paymentPlan = {
     // },
     // {
     //   id: 6,
-    //   image: "news-6.jpg",
+    //   image: "news-6.webp",
     //   duration: "4 Quarterly Installments",
     //   size: "10 Size/Area",
     //   installment: "200,000",

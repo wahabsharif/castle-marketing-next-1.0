@@ -14,12 +14,12 @@ import PaymentPlan from "@/components/ElanzaMallAndResidencia/PaymentPlan";
 
 const ElanzaMallAndResidencia = () => {
   return (
-    <Layout pageTitle=" | Elanza Mall & Residencia">
+    <Layout pageTitle=" | Elanza Mall & Residency">
       <Style />
       <Header />
       <MobileMenu />
       <SearchPopup />
-      <Banner title="Elanza Mall & Residencia" />
+      <Banner title="Elanza Mall & Residency" />
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />

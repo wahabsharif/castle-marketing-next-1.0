@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "payment-plan-blue-world-city-general-block.jpg",
+      image: "payment-plan-blue-world-city-general-block.webp",
       duration: "8 Half Yearly Installments",
       size: "5 Marla",
       installment: "149,000",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "payment-plan-blue-world-city-sport-valley.jpg",
+      image: "payment-plan-blue-world-city-sport-valley.webp",
       duration: "8 Half Yearly Installments",
       size: "5 Marla",
       installment: "150,000",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "payment-plan-blue-world-city-water-front.jpg",
+      image: "payment-plan-blue-world-city-water-front.webp",
       duration: "40 Quarterly Installments",
       size: "6 Marla",
       installment: "175,000",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "payment-plan-blue-world-city-awami-block.jpg",
+      image: "payment-plan-blue-world-city-awami-block.webp",
       duration: "8 Half Yearly Installments",
       size: "4.5 Marla",
       installment: "87,500",

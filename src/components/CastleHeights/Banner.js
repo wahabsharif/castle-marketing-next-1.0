@@ -1,4 +1,4 @@
-import bg from "@/images/castle-heights/castle-heights-banner.png";
+import bg from "@/images/castle-heights/castle-heights-banner.webp";
 import Link from "next/link";
 import React from "react";
 

@@ -1,5 +1,5 @@
-import image1 from "@/images/ceo-castle-marketing-fawad-khan-marwat.png";
-import signature from "@/images/fawad-khan-sign-1.png";
+import image1 from "@/images/ceo-castle-marketing-fawad-khan-marwat.webp";
+import signature from "@/images/fawad-khan-sign-1.webp";
 
 export const ceoData = {
   image1,

@@ -1,4 +1,4 @@
-import bg from "@/images/elanza-mall/elanza-mall-banner.png";
+import bg from "@/images/elanza-mall/elanza-mall-banner.webp";
 import Link from "next/link";
 import React from "react";
 

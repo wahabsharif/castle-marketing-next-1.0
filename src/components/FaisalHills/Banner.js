@@ -1,4 +1,4 @@
-import bg from "@/images/faisal-hills/faisal-hills-banner.png";
+import bg from "@/images/faisal-hills/faisal-hills-banner.webp";
 import Link from "next/link";
 import React from "react";
 

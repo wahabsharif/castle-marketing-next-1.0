@@ -27,13 +27,13 @@ const SinglePlan = ({ news = {} }) => {
           <div className="post-meta">
             <ul className="clearfix">
               <li>
-                <span></span>Size: <u>{size}</u>
+                <span></span>Size:<u>{size}</u>
               </li>
               <li>
-                <span></span> Down Payment: <u>{installment}</u>
+                <span></span> Down Payment:<u>{installment}</u>
               </li>
               <li>
-                <span></span>installments: <u>{duration}</u>
+                <span></span>installments:<u>{duration}</u>
               </li>
             </ul>
           </div>

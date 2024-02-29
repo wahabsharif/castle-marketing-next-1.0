@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "new-metro-city-payment-plan-residential-plots.jpg",
+      image: "new-metro-city-payment-plan-residential-plots.webp",
       duration: "24 Monthly Installments",
       size: "5 Marla",
       installment: "30,400",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "new-metro-city-payment-plan-premium-residential.jpg",
+      image: "new-metro-city-payment-plan-premium-residential.webp",
       duration: "24 Monthly Installments",
       size: "8 Marla",
       installment: "46,250",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "new-metro-city-payment-plan-prime-commercial-2.66.jpg",
+      image: "new-metro-city-payment-plan-prime-commercial-2.66.webp",
       duration: "30 Monthly Installments",
       size: "2.66 Marla",
       installment: "59,000",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "new-metro-city-payment-plan-prime-commercial-8-marla.jpg",
+      image: "new-metro-city-payment-plan-prime-commercial-8-marla.webp",
       duration: "30 Monthly Installments",
       size: "8 Marla",
       installment: "299,000",

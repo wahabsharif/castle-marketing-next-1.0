@@ -1,4 +1,4 @@
-import bg from "@/images/the-arcadia/the-arcadia-banner.png";
+import bg from "@/images/the-arcadia/the-arcadia-banner.webp";
 import Link from "next/link";
 import React from "react";
 

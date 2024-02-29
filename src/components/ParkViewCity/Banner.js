@@ -1,4 +1,4 @@
-import bg from "@/images/park-view-city/park-view-city-banner.png";
+import bg from "@/images/park-view-city/park-view-city-banner.webp";
 import Link from "next/link";
 import React from "react";
 

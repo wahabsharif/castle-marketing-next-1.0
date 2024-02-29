@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "park-view-city-payment-plan-hi-rise-residential-plot.jpg",
+      image: "park-view-city-payment-plan-hi-rise-residential-plot.webp",
       duration: "4 Quarterly",
       size: "4.5 Kanal",
       installment: "175,125,000",
@@ -12,16 +12,16 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "park-view-city-payment-plan-overseas-premium.jpg",
+      image: "park-view-city-payment-plan-overseas-premium.webp",
       duration: "8 Quarterly Installment",
-      size: "5 Marla",
+      size: "5 Marla   ",
       installment: "1,125,000",
       title: "Parkview City",
       text: "OverSeas Premium",
     },
     {
       id: 3,
-      image: "park-view-city-payment-plan-overseas-commercial.jpg",
+      image: "park-view-city-payment-plan-overseas-commercial.webp",
       duration: "6 Quarterly Installments",
       size: "5 Marla",
       installment: "9,375,000",
@@ -30,7 +30,7 @@ const paymentPlan = {
     },
     {
       id: 4,
-      image: "park-view-city-payment-plan-terrace-apartment-1.jpg",
+      image: "park-view-city-payment-plan-terrace-apartment-1.webp",
       duration: "6 Months",
       size: "1321 Area",
       installment: "14,861,250",
@@ -39,7 +39,7 @@ const paymentPlan = {
     },
     {
       id: 5,
-      image: "park-view-city-payment-plan-terrace-apartment-2.jpg",
+      image: "park-view-city-payment-plan-terrace-apartment-2.webp",
       duration: "6 Months",
       size: "1296 Area",
       installment: "14,580,000",
@@ -48,7 +48,7 @@ const paymentPlan = {
     },
     {
       id: 6,
-      image: "park-view-city-payment-plan-terrace-c-block.jpg",
+      image: "park-view-city-payment-plan-terrace-c-block.webp",
       duration: "8 Quarterly Installments",
       size: "10 Marla",
       installment: "3,937,500",

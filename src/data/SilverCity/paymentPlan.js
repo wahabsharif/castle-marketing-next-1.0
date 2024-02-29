@@ -3,7 +3,7 @@ const paymentPlan = {
   newsData: [
     {
       id: 1,
-      image: "silver-city-payment-plan-commercial-plot.jpg",
+      image: "silver-city-payment-plan-commercial-plot.webp",
       duration: "3 Quarterly Installment",
       size: "35 X 40 80 Feet",
       installment: "2,650,000",
@@ -12,7 +12,7 @@ const paymentPlan = {
     },
     {
       id: 2,
-      image: "silver-city-payment-plan-residential-plot.jpg",
+      image: "silver-city-payment-plan-residential-plot.webp",
       duration: "4 Annually Installments",
       size: "5 Marla",
       installment: "99,000",
@@ -21,7 +21,7 @@ const paymentPlan = {
     },
     {
       id: 3,
-      image: "silver-city-payment-plan-3.5-marla-residential.jpg",
+      image: "silver-city-payment-plan-3.5-marla-residential.webp",
       duration: "48 Monthly Installments",
       size: "3.5 Marla",
       installment: "20,000",
