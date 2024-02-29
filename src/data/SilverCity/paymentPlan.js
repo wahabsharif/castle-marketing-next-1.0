@@ -5,7 +5,7 @@ const paymentPlan = {
       id: 1,
       image: "silver-city-payment-plan-commercial-plot.webp",
       duration: "3 Quarterly Installment",
-      size: "35 X 40 80 Feet",
+      size: "80 Feet",
       installment: "2,650,000",
       title: "Silver City",
       text: "Commercial Plots",

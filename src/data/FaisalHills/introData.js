@@ -1,6 +1,6 @@
 export const introData = {
   images: ["faisal-hills-intro-shot.webp", "faisal-hills-intro-shot-1.webp"],
   title: "Introduction.",
-  text: "Faisal Hills offers a residential sanctuary that harmoniously blends the untouched beauty of its natural surroundings with the majestic Margalla Hills. Providing an opportunity for unparalleled ownership and luxury living in Islamabad, celebrated for its scenic beauty, Faisal Hills is situated within a secure gated community. It effortlessly integrates modern culture with sought-after amenities, paying homage to the ancient Gandhara Civilization's rich heritage. Our dedicated team is devoted to creating projects that embody modern design, forward-thinking, robust construction, and exceptional project management, positively impacting both communities and organizations in the long term.",
+  text: "Faisal Hills, nestled amidst the scenic Margalla Hills, offers an exclusive residential haven in Islamabad. Blending natural beauty with luxury living, it is located within a secure gated community. Embracing modern culture and amenities while paying homage to the rich heritage of the Gandhara Civilization, Faisal Hills is a testament to our dedicated team's commitment to innovative design, robust construction, and effective project management for lasting positive impact.",
   proximity: "Easy accessibility from Islamabad, Rawalpindi, and Taxila.",
 };

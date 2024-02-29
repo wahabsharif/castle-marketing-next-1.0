@@ -4,6 +4,6 @@ export const introData = {
     "new-metro-city-intro-shot-1.webp",
   ],
   title: "Introduction.",
-  text: "BSM Developers has earned acclaim for their lavish and contemporary housing projects, creating serene living environments for residents. Notably, their major projects, Gwadar Golf City in Gwadar and New Metro City in Kharian Sarai Alamgir, have garnered widespread attention.New Metro City in Kharian Sarai Alamgir stands out, offering amenities like mosques, schools, parks, jogging tracks, top-notch security, and shopping malls. Its strategic location, impressive development, and reasonable pricing contribute to its allure. Building on the success of these projects, BSM Developers eagerly announces their upcoming project in Gujjar Khan.",
+  text: "BSM Developers, renowned for their opulent and modern housing ventures, have excelled in crafting tranquil living spaces. Particularly, Gwadar Golf City in Gwadar and New Metro City in Kharian Sarai Alamgir have gained widespread acclaim. New Metro City stands out with mosques, schools, parks, jogging tracks, security, and shopping malls, its strategic location, remarkable development, and affordable pricing adding to its appeal. BSM Developers eagerly anticipates their upcoming project in Gujjar Khan.",
   proximity: "30 Minutes From Rawat.",
 };
