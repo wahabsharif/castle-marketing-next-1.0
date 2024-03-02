@@ -30,5 +30,5 @@ export const contactSection = {
       required: true,
     },
   ],
-  title: "Offices near you",
+  title: "Our Office",
 };

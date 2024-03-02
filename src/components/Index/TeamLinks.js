@@ -9,13 +9,11 @@ const Team = ({ team = {}, className = "" }, ref) => {
     <div ref={ref} className={`team-block ${className}`}>
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/about">
-
+          <Link href="">
             <Image
-              src={require(`@/images/resource/${image}`).default.src}
+              src={require(`@/images/teams/${image}`).default.src}
               alt=""
             />
-
           </Link>
           <ul className="social-links clearfix">
             {socials.map(({ id, icon, href }) => (

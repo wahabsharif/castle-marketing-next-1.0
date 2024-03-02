@@ -42,8 +42,24 @@ const MainFooter = ({ normalPadding = true }) => {
                   <ul className="social-links clearfix">
                     {socials.map(({ id, icon, href }) => (
                       <li key={id}>
-                        <a href={href}>
-                          <span className={icon}></span>
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {typeof icon === "string" ? (
+                            <span className={icon}></span>
+                          ) : (
+                            <svg
+                              className="custom-svg-icon"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="25px"
+                              height="25px"
+                              viewBox="0 0 256 256"
+                            >
+                              <path fill="currentColor" d={icon.path} />
+                            </svg>
+                          )}
                         </a>
                       </li>
                     ))}

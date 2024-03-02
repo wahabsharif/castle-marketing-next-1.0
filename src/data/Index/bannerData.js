@@ -28,17 +28,17 @@ export const bannerOne = {
   socials: [
     {
       id: 1,
-      href: "#",
-      title: "Twitter",
+      href: "https://www.instagram.com/castlemarketingofficial",
+      title: "Instagram",
     },
     {
       id: 2,
-      href: "#",
+      href: "https://www.facebook.com/castlemarketingofficial",
       title: "Facebook",
     },
     {
       id: 3,
-      href: "#",
+      href: "https://www.youtube.com/@castlemarketing",
       title: "Youtube",
     },
   ],

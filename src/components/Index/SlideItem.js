@@ -14,9 +14,6 @@ const SlideItem = ({ slide = {} }, ref) => {
           })`,
         }}
       ></div>
-      <div className="left-top-line"></div>
-      <div className="right-bottom-curve"></div>
-      <div className="right-top-curve"></div>
       <div className="auto-container">
         <div className="content-box">
           <div className="content">

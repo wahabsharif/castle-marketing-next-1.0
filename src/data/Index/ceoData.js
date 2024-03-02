@@ -7,7 +7,7 @@ export const ceoData = {
   title: "Fawad Khan",
   text1: "CEO And Founder",
   text2:
-    "Fawad Khan Marwat, a dynamic professional in the real estate industry, brings a wealth of expertise to Castle Marketing. With a commitment to excellence, he leads a professional team dedicated to providing top-notch services. Fawad's strategic guidance ensures secure investments, prioritizing client satisfaction and realizing dreams.",
+    "Fawad Khan Marwat, a dynamic real estate professional at Castle Marketing, offers extensive expertise. Leading a committed team, he prioritizes client satisfaction, ensuring secure investments and fulfilling dreams.",
   textList: [
     "Dynamic Real Estate Professional.",
     "Strategic Leadership Expertise.",

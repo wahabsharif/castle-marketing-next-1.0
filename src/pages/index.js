@@ -10,8 +10,8 @@ import Layout from "@/components/Layout/Layout";
 import Style from "@/components/Reuseable/Style";
 import SponsorsSection from "@/components/Index/SponsorsSection";
 import Footer from "@/components/Footer/Footer";
-// import Team from "@/components/Index/Team";
-// import Awards from "@/components/Index/Awards";
+import Team from "@/components/Index/Team";
+import Awards from "@/components/Index/Awards";
 
 const Home = () => {
   useEffect(() => {
@@ -30,9 +30,9 @@ const Home = () => {
       <Banner />
       <Introduction />
       <CEO />
-      {/* <Team /> */}
+      <Team />
       <Opportunities />
-      {/* <Awards /> */}
+      <Awards />
       <SponsorsSection />
       {/* <HearUsOut /> */}
       <Footer normalPadding={true} />

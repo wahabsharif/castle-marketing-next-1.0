@@ -30,17 +30,19 @@ const CEO = () => {
                 <div className="lower-text">{text1}</div>
               </div>
               <div className="text">
-                <p>{text2}</p>
+                <p>
+                  <b>{text2}</b>
+                </p>
               </div>
               <div className="text clearfix">
+                <div className="since">
+                  <Image src={signature.src} alt="" />
+                </div>
                 <ul>
                   {textList.map((text, i) => (
                     <li key={i}>{text}</li>
                   ))}
                 </ul>
-                <div className="since">
-                  <Image src={signature.src} alt="" />
-                </div>
               </div>
             </div>
           </Col>
