@@ -16,8 +16,8 @@ const teamData = {
   teams: [
     {
       id: 1,
-      image: "team-1.jpg",
-      name: "Adnan",
+      image: "adnan.png",
+      name: "Mr. Adnan Golab",
       designation:
         "Harmonizing sales and operations for seamless business orchestration and enhanced efficiency.",
       socials,
@@ -25,17 +25,9 @@ const teamData = {
     {
       id: 2,
       image: "team-1.jpg",
-      name: "Moeed",
+      name: "Mr. Moeed Awan",
       designation:
         "Driving growth through strategic sales solutions and expert consultancy services.",
-      socials,
-    },
-    {
-      id: 3,
-      image: "team-1.jpg",
-      name: "Adnan",
-      designation:
-        "Harmonizing sales and operations for seamless business orchestration and enhanced efficiency.",
       socials,
     },
   ],

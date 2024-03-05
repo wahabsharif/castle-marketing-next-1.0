@@ -14,8 +14,8 @@ const Team = () => {
             {title} <span className="dot">.</span>
           </h2>
         </div>
-        <Row className="clearfix">
-          {teams.slice(0, 4).map((team) => (
+        <Row className="clearfix justify-content-center">
+          {teams.slice(0, 2).map((team) => (
             <TeamData
               key={team.id}
               team={team}
