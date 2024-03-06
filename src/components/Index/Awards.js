@@ -8,8 +8,8 @@ SwiperCore.use([Autoplay]);
 
 const options = {
   spaceBetween: 10,
-  slidesPerView: 4,
-  autoplay: { delay: 200 },
+  slidesPerView: 5,
+  autoplay: { delay: 3000 },
   breakpoints: {
     0: {
       slidesPerView: 1,

@@ -6,7 +6,7 @@ import Opportunities from "@/components/Index/Opportunities";
 import Header from "@/components/Header/Header";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
-// import HearUsOut from "@/components/Index/HearUsOut";
+import HearUsOut from "@/components/Index/HearUsOut";
 import Style from "@/components/Reuseable/Style";
 import SponsorsSection from "@/components/Index/SponsorsSection";
 import Footer from "@/components/Footer/Footer";
@@ -34,7 +34,7 @@ const Home = () => {
       <Opportunities />
       <Awards />
       <SponsorsSection />
-      {/* <HearUsOut /> */}
+      <HearUsOut />
       <Footer normalPadding={true} />
     </Layout>
   );

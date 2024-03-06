@@ -1,9 +1,9 @@
-import bg from "@/images/resource/featured-image-3.jpg";
+import bg from "@/images/index-banner-1.webp";
 
 const hearUsOutData = {
   secTitle: "Hear Us Out",
   bg,
-  videoId: "Get7rqXYrbQ",
+  videoId: "CvdgGzRM2yA",
   title: "Who We are ?",
 };
 
