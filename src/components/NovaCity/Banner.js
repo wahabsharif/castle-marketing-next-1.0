@@ -1,4 +1,4 @@
-import bg from "@/images/nova-city/nova-city-banner.webp";
+import bg from "@/images/nova-city/nova-city-banner.png";
 import Link from "next/link";
 import React from "react";
 

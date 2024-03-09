@@ -1,4 +1,4 @@
-import bg from "@/images/silver-city/silver-city-banner.webp";
+import bg from "@/images/silver-city/silver-city-banner.png";
 import Link from "next/link";
 import React from "react";
 
