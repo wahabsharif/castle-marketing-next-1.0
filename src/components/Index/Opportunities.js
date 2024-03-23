@@ -1,6 +1,5 @@
 import { gallerySectionData } from "@/components/GallerySection/gallerySectionData";
 import useActive from "@/hooks/useActive";
-import Link from "next/link";
 import React, { useState } from "react";
 import Masonry from "react-masonry-component";
 import GalleryItem from "@/components/GallerySection/GalleryItem";
@@ -66,14 +65,6 @@ const Opportunities = ({ portfolio = false, similar = false }) => {
               <GalleryItem item={item} key={item.id} />
             ))}
           </Masonry>
-          {portfolio && (
-            <div className="more-box">
-              <Link href="/portfolio" className="theme-btn btn-style-one">
-                <i className="btn-curve"></i>
-                <span className="btn-title">Load more work</span>
-              </Link>
-            </div>
-          )}
         </div>
       </div>
     </section>

@@ -9,8 +9,8 @@ const Banner = ({ title = "", page = "", parent = "", parentHref = "/" }) => {
         className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
-      <div className="shape-1"></div>
-      <div className="shape-2"></div>
+      {/* <div className="shape-1"></div>
+      <div className="shape-2"></div> */}
       <div className="banner-inner">
         <div className="auto-container">
           <div className="inner-container clearfix">

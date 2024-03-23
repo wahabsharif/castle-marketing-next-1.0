@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import TeamData from "./TeamData";
-import teamData from "@/data/Index/team";
+import TeamData from "./TeamLinks";
+import teamData from "@/data/Index/teamData";
 
 const { title, teams } = teamData;
 
@@ -14,8 +14,8 @@ const Team = () => {
             {title} <span className="dot">.</span>
           </h2>
         </div>
-        <Row className="clearfix">
-          {teams.slice(1, 4).map((team) => (
+        <Row className="clearfix justify-content-center">
+          {teams.slice(0, 2).map((team) => (
             <TeamData
               key={team.id}
               team={team}

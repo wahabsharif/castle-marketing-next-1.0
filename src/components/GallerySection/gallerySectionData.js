@@ -6,12 +6,14 @@ const items2 = [
     title: "Elanza Mall & Residencia",
     tagline: "Project",
     filter: ["all", "projects"],
+    href: "elanza-mall-and-residencia",
   },
   {
     id: 2,
     image: "castle-heights.webp",
     title: "Castle Heights",
     tagline: "Project",
+    href: "castle-heights",
     filter: ["all", "projects"],
   },
   {
@@ -19,6 +21,7 @@ const items2 = [
     image: "the-arcadia.webp",
     title: "The Arcadia",
     tagline: "Project",
+    href: "the-arcadia",
     filter: ["all", "projects"],
   },
 
@@ -29,6 +32,7 @@ const items2 = [
     image: "parkview-city.webp",
     title: "Parkviewcity Islamabad",
     tagline: "Society",
+    href: "park-view-city",
     filter: ["all", "societies"],
   },
   {
@@ -36,6 +40,7 @@ const items2 = [
     image: "silver-city.webp",
     title: "Silver City",
     tagline: "Society",
+    href: "silver-city",
     filter: ["all", "societies"],
   },
   {
@@ -43,6 +48,7 @@ const items2 = [
     image: "gulberg-islamabad.webp",
     title: "Gulberg Islamabad",
     tagline: "Society",
+    href: "gulberg-islamabad",
     filter: ["all", "societies"],
   },
   {
@@ -50,6 +56,7 @@ const items2 = [
     image: "faisal-town.webp",
     title: "Faisal Town",
     tagline: "Society",
+    href: "faisal-town",
     filter: ["all", "societies"],
   },
   {
@@ -57,6 +64,7 @@ const items2 = [
     image: "faisal-hills.webp",
     title: "Faisal Hills",
     tagline: "Society",
+    href: "faisal-hills",
     filter: ["all", "societies"],
   },
   {
@@ -64,6 +72,7 @@ const items2 = [
     image: "new-metro-city.webp",
     title: "New metro city",
     tagline: "Society",
+    href: "new-metro-city",
     filter: ["all", "societies"],
   },
   {
@@ -71,6 +80,7 @@ const items2 = [
     image: "avalon-city.webp",
     title: "Avalon city",
     tagline: "Society",
+    href: "avalon-city",
     filter: ["all", "societies"],
   },
   {
@@ -78,6 +88,7 @@ const items2 = [
     image: "nova-city.webp",
     title: "Nova city",
     tagline: "Society",
+    href: "nova-city",
     filter: ["all", "societies"],
   },
   {
@@ -85,6 +96,7 @@ const items2 = [
     image: "blue-world-city.webp",
     title: "Blue World City",
     tagline: "Society",
+    href: "blue-world-city",
     filter: ["all", "societies"],
   },
 ];

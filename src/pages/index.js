@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
-import CEO from "@/components/Index/CEO";
-import Introduction from "@/components/Index/Introduction";
-import Banner from "@/components/Index/Banner";
-import Opportunities from "@/components/Index/Opportunities";
 import Header from "@/components/Header/Header";
 import MobileMenu from "@/components/Header/MobileMenu";
+import Banner from "@/components/Index/Banner";
+import CEO from "@/components/Index/CEO";
+import Introduction from "@/components/Index/Introduction";
+import Opportunities from "@/components/Index/Opportunities";
 import Layout from "@/components/Layout/Layout";
+import { useEffect } from "react";
 // import HearUsOut from "@/components/Index/HearUsOut";
-import Style from "@/components/Reuseable/Style";
-import SponsorsSection from "@/components/Index/SponsorsSection";
 import Footer from "@/components/Footer/Footer";
-// import Team from "@/components/Index/Team";
-// import Awards from "@/components/Index/Awards";
+import Awards from "@/components/Index/Awards";
+import SponsorsSection from "@/components/Index/SponsorsSection";
+import Team from "@/components/Index/Team";
+import Style from "@/components/Reuseable/Style";
 
 const Home = () => {
   useEffect(() => {
@@ -30,9 +30,9 @@ const Home = () => {
       <Banner />
       <Introduction />
       <CEO />
-      {/* <Team /> */}
+      <Team />
       <Opportunities />
-      {/* <Awards /> */}
+      <Awards />
       <SponsorsSection />
       {/* <HearUsOut /> */}
       <Footer normalPadding={true} />

@@ -1,5 +1,4 @@
 import { awardsData } from "@/data/Index/awardsData";
-import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import SwiperCore, { Autoplay } from "swiper";
@@ -8,8 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 SwiperCore.use([Autoplay]);
 
 const options = {
-  spaceBetween: 2,
-  slidesPerView: 2,
+  spaceBetween: 10,
+  slidesPerView: 5,
   autoplay: { delay: 3000 },
   breakpoints: {
     0: {
@@ -49,16 +48,13 @@ const Awards = () => {
               <SwiperSlide key={id}>
                 <div className="project-six__item">
                   <Image
-                    src={
-                      require(`@/images/update-01-10-2021/project/${image}`)
-                        .default.src
-                    }
+                    src={require(`@/images/awards/${image}`).default.src}
                     alt=""
                   />
                   <div className="project-six__content">
                     <p className="project-six__category">{category}</p>
                     <h3 className="project-six__title">
-                      <Link href="/portfolio-single" legacyBehavior>{title}</Link>
+                      <span>{title}</span>
                     </h3>
                   </div>
                 </div>
