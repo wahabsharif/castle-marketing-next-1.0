@@ -17,7 +17,7 @@ const teamData = {
     {
       id: 1,
       image: "adnan.png",
-      name: "Mr. Adnan Golab",
+      name: "Mr. Adnan Gulab",
       designation:
         "Harmonizing sales and operations for seamless business orchestration and enhanced efficiency.",
       socials,

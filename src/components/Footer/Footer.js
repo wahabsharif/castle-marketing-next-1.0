@@ -110,18 +110,38 @@ const MainFooter = ({ normalPadding = true }) => {
             <Col xl={4} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget newsletter-widget">
                 <div className="widget-content">
-                  <h6>Newsletter</h6>
+                  <h6>Get Latest Updates</h6>
                   <div className="newsletter-form">
+                    <form>
+                      <div className="form-group clearfix">
+                        <input
+                          type="text"
+                          name="text"
+                          placeholder="Enter Your Full Name"
+                          required
+                        />
+                      </div>
+                    </form>
+                    <form>
+                      <div className="form-group clearfix">
+                        <input
+                          type="text"
+                          name="text"
+                          placeholder="Enter Your Phone Number"
+                          required
+                        />{" "}
+                      </div>
+                    </form>
                     <form onSubmit={handleSubmit}>
                       <div className="form-group clearfix">
                         <input
                           type="email"
                           name="email"
-                          placeholder="Email Address"
+                          placeholder="Enter Your Email Address"
                           required
                         />
                         <button type="submit" className="theme-btn">
-                          <span className="fa fa-envelope"></span>
+                          <span className="fa fa-arrow-right"></span>
                         </button>
                       </div>
                     </form>
