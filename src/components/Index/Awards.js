@@ -1,83 +1,86 @@
-import { awardsData } from "@/data/Index/awardsData";
-import React from "react";
+import awardsData from "@/data/Index/awardsData";
+import dynamic from "next/dynamic";
+import React, { useRef } from "react";
 import { Image } from "react-bootstrap";
-import SwiperCore, { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
 
-SwiperCore.use([Autoplay]);
+const TinySlider = dynamic(() => import("@/components/TinySlider/TinySlider"), {
+  ssr: false,
+});
 
-const options = {
-  spaceBetween: 10,
-  slidesPerView: 5,
-  autoplay: { delay: 3000 },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
+const settings = {
+  loop: false,
+  lazyload: true,
+  nav: false,
+  mouseDrag: true,
+  items: 1,
+  autoplay: true,
+  autoHeight: true,
+  controls: false,
+  gutter: 0,
+  autoplayButton: false,
+  autoplayButtonOutput: false,
+  responsive: {
+    600: {
+      items: 2,
+      gutter: 30,
     },
-    375: {
-      slidesPerView: 2,
+    768: {
+      items: 3,
+      gutter: 30,
     },
-    480: {
-      slidesPerView: 3,
+    992: {
+      items: 4,
+      gutter: 30,
     },
-    767: {
-      slidesPerView: 3,
-    },
-    1199: {
-      slidesPerView: 4,
+    1200: {
+      items: 5,
+      gutter: 30,
     },
   },
 };
 
-const { tagline, title, projects } = awardsData;
+const Awards = ({ className = "" }) => {
+  const listRef = useRef(null);
 
-/**
- * Renders the Awards component.
- *
- * @return {JSX.Element} The rendered Awards component.
- */
-const Awards = () => {
-  // Define the Awards component that renders a section with a list of awards and achievements.
   return (
-    // Start the section with the class "project-six"
-    <section className="project-six">
-      <div className="auto-container">
-        {/* Start the section's title */}
-        <div className="sec-title-six text-center">
-          {/* Display the tagline for the awards */}
-          <p className="sec-title-six__text">
-            <span>{tagline}</span>
-          </p>
-          {/* Display the title of the awards */}
-          <h2 className="sec-title-six__title">{title}</h2>
-        </div>
-
-        {/* Start the Swiper component for the awards slideshow */}
-        <Swiper {...options} className="thm-swiper__slider">
-          {/* Start the swiper wrapper */}
-          <div className="swiper-wrapper">
-            {/* Map over the list of projects and render each one as a SwiperSlide */}
-            {projects.map(({ id, image, category, title }) => (
-              <SwiperSlide key={id}>
-                {/* Start a project item */}
-                <div className="project-six__item">
-                  {/* Render an image from the awards directory */}
-                  <Image
-                    src={require(`@/images/awards/${image}`).default.src}
-                    alt=""
-                  />
-                  {/* Display the category and title of the award */}
-                  <div className="project-six__content">
-                    <p className="project-six__category">{category}</p>
-                    <h3 className="project-six__title">
-                      <span>{title}</span>
-                    </h3>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
+    <section className={`sponsors-section ${className}`}>
+      <div className="sponsors-outer">
+        <div className="auto-container">
+          <div className="sec-title centered">
+            <p>How We Shine</p>
+            <h2>
+              Awards and Achievements
+              <span className="dot">.</span>
+            </h2>
           </div>
-        </Swiper>
+          <div className="sponsors-carousel">
+            <TinySlider
+              options={{ ...settings, container: `.my-slider-15` }}
+              ref={listRef}
+            >
+              {awardsData.map((image, index) => (
+                <div
+                  ref={listRef}
+                  key={index}
+                  className="slide-item text-center"
+                >
+                  <figure className="image-box">
+                    <a href="#">
+                      <Image
+                        src={
+                          require(`@/images/awards/${
+                            className.includes("dark") ? "dark-1.png" : image
+                          }`).default.src
+                        }
+                        alt=""
+                      />
+                    </a>
+                  </figure>
+                </div>
+              ))}
+            </TinySlider>
+          </div>
+        </div>
       </div>
     </section>
   );
