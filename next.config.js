@@ -2,6 +2,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
@@ -11,7 +12,6 @@ const nextConfig = {
       // Add more export paths as needed
     };
   },
-  output: "export", // Add this line
 };
 
 module.exports = nextConfig;
