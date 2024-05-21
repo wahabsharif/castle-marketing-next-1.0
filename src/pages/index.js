@@ -9,7 +9,7 @@ import { useEffect } from "react";
 // import HearUsOut from "@/components/Index/HearUsOut";
 import Footer from "@/components/Footer/Footer";
 import Awards from "@/components/Index/Awards";
-import SponsorsSection from "@/components/Index/SponsorsSection";
+// import SponsorsSection from "@/components/Index/SponsorsSection";
 import Team from "@/components/Index/Team";
 import Style from "@/components/Reuseable/Style";
 
@@ -33,7 +33,7 @@ const Home = () => {
       <Team />
       <Opportunities />
       <Awards />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       {/* <HearUsOut /> */}
       <Footer normalPadding={true} />
     </Layout>
