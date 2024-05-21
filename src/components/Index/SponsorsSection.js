@@ -1,4 +1,4 @@
-import sponsors from "@/data/Index/sponsorsData";
+import awardsData from "@/data/Index/awardsData";
 import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import { Image } from "react-bootstrap";
@@ -47,8 +47,9 @@ const SponsorsSection = ({ className = "" }) => {
       <div className="sponsors-outer">
         <div className="auto-container">
           <div className="sec-title centered">
+            <p>How We Shine</p>
             <h2>
-              The brands we Promote
+              Awards and Achievements
               <span className="dot">.</span>
             </h2>
           </div>
@@ -57,7 +58,7 @@ const SponsorsSection = ({ className = "" }) => {
               options={{ ...settings, container: `.my-slider-15` }}
               ref={listRef}
             >
-              {sponsors.map((image, index) => (
+              {awardsData.map((image, index) => (
                 <div
                   ref={listRef}
                   key={index}
@@ -67,7 +68,7 @@ const SponsorsSection = ({ className = "" }) => {
                     <a href="#">
                       <Image
                         src={
-                          require(`@/images/sponsors/${
+                          require(`@/images/awards/${
                             className.includes("dark") ? "dark-1.png" : image
                           }`).default.src
                         }
