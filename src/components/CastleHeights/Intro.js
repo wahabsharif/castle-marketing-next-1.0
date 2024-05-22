@@ -52,14 +52,14 @@ const Intro = ({ portfolio = 1 }) => {
                   <Col lg={portfolio === 2 ? 4 : 12} md={12} sm={12}>
                     <div className={portfolio === 2 ? "inner" : ""}>
                       <ul className="info">
-                        {/* <li>
+                        <li>
                           <strong>proximity:</strong> <br />
                           {proximity}
-                        </li> */}
-                        {/* <li>
+                        </li>
+                        <li>
                           <strong>Google Location:</strong> <br />
                           <GoogleLocation />
-                        </li> */}
+                        </li>
                       </ul>
                     </div>
                   </Col>
