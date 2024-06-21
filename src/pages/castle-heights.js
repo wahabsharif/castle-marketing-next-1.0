@@ -19,7 +19,10 @@ const CastleHeights = () => {
       <Header />
       <MobileMenu />
       <SearchPopup />
-      <Banner title="Castle Heights" />
+      <Banner
+        title="Castle Heights"
+        tagLine="crown jewl of the-walk, downtown islamabad."
+      />
       <Intro />
       <PaymentPlan showTitle={false} isMore />
       <Details />

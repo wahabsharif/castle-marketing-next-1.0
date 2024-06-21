@@ -10996,12 +10996,25 @@ img.lazy-image.loaded {
 .page-banner h1 {
   position: relative;
   font-size: 100px;
+  color: wheat;
+  line-height: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.page-banner p {
+  position: relative;
+  font-size: 30px;
   color: #ffffff;
   line-height: 0.9em;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .page-banner .page-nav {

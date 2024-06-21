@@ -2,7 +2,13 @@ import bg from "@/images/castle-heights/castle-heights-banner.webp";
 import Link from "next/link";
 import React from "react";
 
-const Banner = ({ title = "", page = "", parent = "", parentHref = "/" }) => {
+const Banner = ({
+  title = "",
+  tagLine = "",
+  page = "",
+  parent = "",
+  parentHref = "/",
+}) => {
   return (
     <section className="page-banner">
       <div
@@ -15,6 +21,7 @@ const Banner = ({ title = "", page = "", parent = "", parentHref = "/" }) => {
         <div className="auto-container">
           <div className="inner-container clearfix">
             <h1>{title}</h1>
+            <p className="para">{tagLine}</p>
             <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>
