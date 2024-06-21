@@ -3596,6 +3596,7 @@ img.lazy-image.loaded {
 
 ***/
 .sec-title {
+  margin-top: 20px;
   position: relative;
   margin-bottom: 50px;
 }
@@ -3625,6 +3626,7 @@ img.lazy-image.loaded {
   color: wheat;
   font-weight: 400;
   margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .sec-title h2 strong {
@@ -5770,8 +5772,8 @@ img.lazy-image.loaded {
 .agency-section {
   position: relative;
   padding: 120px 0px 80px;
-  background: #ffffff url(../assets/images/background/pattern-2.png) left top
-    repeat;
+  /* background: #ffffff url(../assets/images/background/pattern-2.png) left top
+    repeat; */
 }
 
 .agency-section .sec-title {

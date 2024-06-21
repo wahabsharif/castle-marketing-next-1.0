@@ -1,0 +1,245 @@
+/* WhatOffered.module.css */
+
+.what-offered-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.button-list {
+  display: flex; /* Display as flex container */
+  justify-content: center; /* Center buttons horizontally */
+  margin-right: 20px; /* Add margin for separation */
+  position: sticky; /* Stick the button list */
+  top: 20px; /* Distance from the top */
+  z-index: 1; /* Ensure it's above other content */
+}
+
+.button-list ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  display: flex; /* Display as flex container */
+}
+
+.button-list li {
+  margin-bottom: 10px;
+}
+
+.button-list button {
+  background-color: #ffaa17;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px; /* Add margin between buttons */
+  width: auto; /* Auto width based on content */
+  text-align: center; /* Align text to the center */
+  cursor: pointer;
+  font-size: 30px;
+  letter-spacing: 3px; /* Add letter spacing */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-list button:hover {
+  background-color: wheat;
+}
+
+.button-list button.active {
+  background-color: #000;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.card {
+  background-color: #032729;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-text h2 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 1.8rem;
+  color: #666;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin as needed */
+  flex-wrap: wrap; /* Wrap circles to next line on smaller screens */
+}
+
+.circle {
+  width: 300px; /* Adjust circle size */
+  height: 300px; /* Adjust circle size */
+  border-radius: 50%; /* Create circle shape */
+  border: 5px solid #ffaa17; /* Circle border */
+  position: relative; /* Position for shine effect */
+  overflow: hidden; /* Hide overflowing shine effect */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+  margin: 20px; /* Adjust margin for spacing */
+  display: flex; /* Center content horizontally and vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.circle-content {
+  text-align: center;
+  color: #ffaa17;
+}
+
+.circle-content h3 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.circle-content p {
+  font-size: 1.8rem;
+}
+
+/* Shine effect on hover */
+.circle::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.circle:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .circle {
+    width: 250px; /* Adjust circle size for medium screens */
+    height: 250px; /* Adjust circle size for medium screens */
+  }
+
+  .circle-content h3 {
+    font-size: 4rem;
+  }
+
+  .circle-content p {
+    font-size: 1.5rem;
+  }
+
+  .card-text h2 {
+    font-size: 4rem;
+  }
+
+  .card-text p {
+    font-size: 1.5rem;
+  }
+
+  .button-list button {
+    font-size: 25px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-offered-container {
+    height: auto; /* Reset height for smaller screens */
+  }
+
+  .button-list {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center; /* Center buttons horizontally */
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space below button list */
+    position: static; /* Reset position for smaller screens */
+    top: auto; /* Reset top for smaller screens */
+    z-index: auto; /* Reset z-index for smaller screens */
+  }
+
+  .button-list button {
+    margin: 10px 2px; /* Adjust margin between vertically stacked buttons */
+    font-size: 20px;
+    padding: 6px 12px;
+  }
+
+  .content {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .card {
+    width: 90%;
+    max-width: none; /* Reset max-width for full width on smaller screens */
+  }
+
+  .circle {
+    width: 200px; /* Adjust circle size for small screens */
+    height: 200px; /* Adjust circle size for small screens */
+  }
+
+  .circle-content h3 {
+    font-size: 3rem;
+  }
+
+  .circle-content p {
+    font-size: 1.2rem;
+  }
+
+  .card-text h2 {
+    font-size: 3rem;
+  }
+
+  .card-text p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle {
+    width: 150px; /* Adjust circle size for extra small screens */
+    height: 150px; /* Adjust circle size for extra small screens */
+  }
+
+  .circle-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .circle-content p {
+    font-size: 1rem;
+  }
+
+  .card-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .card-text p {
+    font-size: 1rem;
+  }
+
+  .button-list button {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+}

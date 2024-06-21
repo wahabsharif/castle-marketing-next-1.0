@@ -6,11 +6,12 @@ import GallerySection from "@/components/GallerySection/GallerySection";
 import MainFooter from "@/components/Footer/Footer";
 import Banner from "@/components/CastleHeights/Banner";
 // import Video from "@/components/CastleHeights/Video";
-import Details from "@/components/CastleHeights/Details";
-import Intro from "@/components/CastleHeights/Intro";
+// import Details from "@/components/CastleHeights/Details";
+// import Intro from "@/components/CastleHeights/Intro";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import PaymentPlan from "@/components/CastleHeights/PaymentPlan";
+import WhatOffered from "@/components/CastleHeights/WhatOffered";
+// import PaymentPlan from "@/components/CastleHeights/PaymentPlan";
 
 const CastleHeights = () => {
   return (
@@ -23,9 +24,10 @@ const CastleHeights = () => {
         title="Castle Heights"
         tagLine="crown jewl of the-walk, downtown islamabad."
       />
-      <Intro />
-      <PaymentPlan showTitle={false} isMore />
-      <Details />
+      <WhatOffered />
+      {/* <Intro /> */}
+      {/* <PaymentPlan showTitle={false} isMore /> */}
+      {/* <Details /> */}
       {/* <Video /> */}
       <GallerySection similar />
       <MainFooter />
