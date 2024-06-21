@@ -11,6 +11,7 @@ import Banner from "@/components/CastleHeights/Banner";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import WhatOffered from "@/components/CastleHeights/WhatOffered";
+import SiteDevelopment from "@/components/CastleHeights/SiteDevelopment";
 // import PaymentPlan from "@/components/CastleHeights/PaymentPlan";
 
 const CastleHeights = () => {
@@ -25,6 +26,7 @@ const CastleHeights = () => {
         tagLine="crown jewl of the-walk, downtown islamabad."
       />
       <WhatOffered />
+      <SiteDevelopment />
       {/* <Intro /> */}
       {/* <PaymentPlan showTitle={false} isMore /> */}
       {/* <Details /> */}
