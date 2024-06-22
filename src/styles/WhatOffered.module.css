@@ -1,5 +1,3 @@
-/* WhatOffered.module.css */
-
 .what-offered-container {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -62,26 +60,56 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  display: flex; /* Display as flex container */
+  flex-direction: row; /* Arrange content horizontally */
+  align-items: center; /* Center items vertically */
   width: 100%;
 }
 
 .card img {
-  width: 100%;
+  width: 100%; /* Ensure image takes full width */
+  max-width: 100%; /* Ensure image respects container */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-left: 20px; /* Add margin between text and image */
 }
 
-.card-text h2 {
+.card-text {
+  flex: 1; /* Take remaining space */
+  text-align: left; /* Align text to the left */
+  color: #fff; /* Text color */
+  padding-right: 20px; /* Add padding on the right for spacing */
+}
+
+/* .card-text h2 {
   font-size: 5rem;
   margin-bottom: 10px;
-}
+} */
 
 .card-text p {
-  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
   color: #666;
+  border-bottom: 1px solid #ccc; /* Add underline */
+  margin-top: 15px; /* Add margin-top */
+  padding-bottom: 10px; /* Add padding-bottom for spacing */
 }
 
+.card-text span {
+  text-align: right; /* Align text to the right */
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left on smaller screens */
+  }
+
+  .card img {
+    margin-top: 20px; /* Add margin between text and image on smaller screens */
+  }
+}
 .circle-container {
   display: flex;
   justify-content: center;
@@ -190,8 +218,12 @@
   }
 
   .card {
-    width: 90%;
-    max-width: none; /* Reset max-width for full width on smaller screens */
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left on smaller screens */
+  }
+
+  .card img {
+    margin-top: 20px; /* Add margin between text and image on smaller screens */
   }
 
   .circle {
@@ -242,4 +274,19 @@
     font-size: 18px;
     padding: 5px 10px;
   }
+}
+.title {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add margin below title */
+}
+
+.title img {
+  width: 64px; /* Adjust icon size */
+  height: 64px; /* Adjust icon size */
+  margin-right: 10px;
+}
+.title h2 {
+  margin-left: 10px; /* Add margin between icon and text */
+  border-bottom: 2px solid #ffaa17;
 }
