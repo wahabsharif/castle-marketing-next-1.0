@@ -26,26 +26,39 @@
 }
 
 .button-list button {
-  background-color: #ffaa17;
-  color: white;
-  border: none;
   padding: 10px 20px;
-  margin: 0 10px; /* Add margin between buttons */
-  width: auto; /* Auto width based on content */
-  text-align: center; /* Align text to the center */
+  margin: 0 10px;
+  font-size: 2rem;
   cursor: pointer;
-  font-size: 30px;
-  letter-spacing: 3px; /* Add letter spacing */
+  background-color: #ffaa17;
+  color: #ffffff;
+  border: none;
   border-radius: 5px;
+  position: relative; /* Required for pseudo-element positioning */
+  overflow: hidden; /* Hide overflow to prevent shine from leaking */
   transition: background-color 0.3s ease;
 }
 
 .button-list button:hover {
-  background-color: wheat;
+  background-color: #ffaa17;
+}
+.button-list button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start shine effect from left side */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* Adjust shine color and opacity */
+  transform: skewX(-45deg); /* Skew to create the shine effect */
+  transition: left 0.6s ease;
 }
 
+.button-list button:hover::before {
+  left: 100%; /* Move shine effect to the right side on hover and active */
+}
 .button-list button.active {
-  background-color: #000;
+  background-color: #1c7498;
 }
 
 .content {

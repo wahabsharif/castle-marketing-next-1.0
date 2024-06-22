@@ -10988,6 +10988,7 @@ img.lazy-image.loaded {
   display: block;
   text-align: center;
   z-index: 3;
+  padding: 6rem 0rem;
 }
 
 .page-banner .inner-container {

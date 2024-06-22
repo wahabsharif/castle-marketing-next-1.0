@@ -30,10 +30,20 @@ const LocationAndProximity = () => {
           </h2>
         </div>
         <div className={styles.buttonContainer}>
-          <button className={styles.button} onClick={showLocationImage}>
+          <button
+            className={`${styles.button} ${
+              displayImage === "location" && styles.activeButton
+            }`}
+            onClick={showLocationImage}
+          >
             See Location
           </button>
-          <button className={styles.button} onClick={showProximityImage}>
+          <button
+            className={`${styles.button} ${
+              displayImage === "proximity" && styles.activeButton
+            }`}
+            onClick={showProximityImage}
+          >
             See Proximity
           </button>
         </div>
