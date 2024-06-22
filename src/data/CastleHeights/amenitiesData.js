@@ -1,67 +1,67 @@
 const amenitiesData = [
   {
     title: "CCTV",
-    imageUrl: "path/to/swimming-pool.jpg",
+    image: "cctv.png",
   },
   {
     title: "Restaurant",
-    imageUrl: "path/to/gym.jpg",
+    image: "restaurant.png",
   },
   {
     title: "Electricity Backup",
-    imageUrl: "path/to/spa.jpg",
+    image: "electricity-backup.png",
   },
   {
     title: "Shopping Mall",
-    imageUrl: "path/to/spa.jpg",
+    image: "shopping-mall.png",
   },
   {
     title: "High Speed Elevator",
-    imageUrl: "path/to/spa.jpg",
+    image: "elevator.png",
   },
   {
     title: "Water Supply",
-    imageUrl: "path/to/spa.jpg",
+    image: "water-supply.png",
   },
   {
     title: "Family Arena",
-    imageUrl: "path/to/spa.jpg",
+    image: "family-arena.png",
   },
   {
     title: "Rooftop Dining",
-    imageUrl: "path/to/spa.jpg",
+    image: "rooftop-dining.png",
   },
   {
     title: "Earthquake Resistance",
-    imageUrl: "path/to/spa.jpg",
+    image: "earthquake-resistance.png",
   },
   {
     title: "Accessible Location",
-    imageUrl: "path/to/spa.jpg",
+    image: "accessible-location.png",
   },
   {
     title: "GYM",
-    imageUrl: "path/to/spa.jpg",
+    image: "gym.png",
   },
   {
     title: "Swimming Pool",
-    imageUrl: "path/to/spa.jpg",
+    image: "swimming-pool.png",
   },
   {
     title: "Valet Parking",
-    imageUrl: "path/to/spa.jpg",
+    image: "valet-parking.png",
   },
   {
     title: "Garbage Disposal",
-    imageUrl: "path/to/spa.jpg",
+    image: "garbage-disposal.png",
   },
   {
     title: "Masjid",
-    imageUrl: "path/to/spa.jpg",
+    image: "masjid.png",
   },
   {
     title: "Cinema",
-    imageUrl: "path/to/spa.jpg",
+    image: "cinema.png",
   },
 ];
 

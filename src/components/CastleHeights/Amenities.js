@@ -16,11 +16,14 @@ const Amenities = () => {
           {amenitiesData.map((amenity, index) => (
             <div key={index} className={styles.amenityCard}>
               <Image
-                src={amenity.imageUrl}
+                src={
+                  require(`@/images/castle-heights/amenities/${amenity.image}`)
+                    .default.src
+                }
                 alt={amenity.title}
                 className={styles.amenityImage}
-                width={100}
-                height={150}
+                width={100} // Adjust width to fit the container
+                height={100}
               />
               <h3 className={styles.amenityTitle}>{amenity.title}</h3>
             </div>
