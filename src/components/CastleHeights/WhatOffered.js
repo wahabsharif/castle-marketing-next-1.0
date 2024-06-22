@@ -106,10 +106,14 @@ const WhatOffered = () => {
               </div>
               <div className={styles["image-container"]}>
                 <Image
-                  src={getCategoryData(selectedCategory)?.imgSrc}
+                  src={
+                    require(`@/images/castle-heights/${
+                      getCategoryData(selectedCategory)?.imgSrc
+                    }`).default.src
+                  }
                   alt={selectedCategory}
-                  width={800} // Adjust width as needed
-                  height={600} // Adjust height as needed
+                  width={700} // Adjust width as needed
+                  height={500} // Adjust height as needed
                 />
               </div>
             </div>

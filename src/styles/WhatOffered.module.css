@@ -80,9 +80,6 @@
 }
 
 .card img {
-  width: 100%; /* Ensure image takes full width */
-  max-width: 100%; /* Ensure image respects container */
-  height: auto; /* Maintain aspect ratio */
   border-radius: 8px;
   margin-left: 20px; /* Add margin between text and image */
 }
