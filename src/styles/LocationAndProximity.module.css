@@ -67,12 +67,14 @@
 
 .image {
   position: absolute;
+  border-radius: 2rem;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: opacity 2s ease;
+  box-shadow: 8px 10px 16px rgba(0, 0, 0, 1); /* Add drop shadow */
 }
 
 .hidden {

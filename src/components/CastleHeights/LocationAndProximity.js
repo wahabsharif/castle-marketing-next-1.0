@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "@/styles/LocationAndProximity.module.css";
 
-import locationImage from "@/images/castle-heights/castle-heights-proximity.png"; // Update with correct path and different images
-import proximityImage from "@/images/castle-heights/castle-heights-intro-2.png"; // Update with correct path and different images
+import locationImage from "@/images/castle-heights/castle-heights-location.png";
+import proximityImage from "@/images/castle-heights/castle-heights-proximity.png";
 
 const LocationAndProximity = () => {
   const [displayImage, setDisplayImage] = useState("location");
