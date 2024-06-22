@@ -12,6 +12,7 @@ import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import WhatOffered from "@/components/CastleHeights/WhatOffered";
 import SiteDevelopment from "@/components/CastleHeights/SiteDevelopment";
+import Amenities from "@/components/CastleHeights/Amenities";
 // import PaymentPlan from "@/components/CastleHeights/PaymentPlan";
 
 const CastleHeights = () => {
@@ -27,6 +28,7 @@ const CastleHeights = () => {
       />
       <WhatOffered />
       <SiteDevelopment />
+      <Amenities />
       {/* <Intro /> */}
       {/* <PaymentPlan showTitle={false} isMore /> */}
       {/* <Details /> */}
