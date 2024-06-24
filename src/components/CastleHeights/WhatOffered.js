@@ -91,12 +91,12 @@ const WhatOffered = () => {
                     {getCategoryData(selectedCategory)?.bookingStartsFrom}
                   </p>
                 )}
-                {getCategoryData(selectedCategory)?.availableApartments && (
+                {/* {getCategoryData(selectedCategory)?.availableApartments && (
                   <p>
                     <strong>Available Apartments:</strong>{" "}
                     {getCategoryData(selectedCategory)?.availableApartments}
                   </p>
-                )}
+                )} */}
                 {getCategoryData(selectedCategory)?.paymentPlanType && (
                   <p>
                     <strong>Payment Plan Type:</strong>{" "}

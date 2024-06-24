@@ -67,11 +67,11 @@ const SiteDevelopment = ({ className = "" }) => {
                     <a href="#">
                       <Image
                         src={
-                          require(`@/images/castle-heights/${
+                          require(`@/images/castle-heights/site-development/${
                             className.includes("dark") ? "dark-1.png" : image
                           }`).default.src
                         }
-                        alt=""
+                        alt="castle-heights-site-development"
                       />
                     </a>
                   </figure>
