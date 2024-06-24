@@ -1,7 +1,32 @@
-.secTitle {
+/* Section Title */
+.secTitle h2 {
   margin: 5rem auto;
   text-align: center;
+  padding: 0 1rem; /* Ensure it doesn't touch screen edges on smaller devices */
+  font-size: 5rem; /* Adjust font size for better readability on smaller screens */
 }
+
+/* Centering the button */
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* Add some padding for smaller screens */
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.image-container img {
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+
+/* Download Button */
 .downloadButton {
   padding: 10px 20px;
   margin: 0 10px;
@@ -36,9 +61,35 @@
   left: 100%; /* Move shine effect to the right side on hover and active */
 }
 
-/* Centering the button */
-.centerContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .secTitle h2 {
+    font-size: 1.5rem; /* Smaller font size on tablets and small devices */
+    margin: 3rem auto; /* Reduce margin for smaller screens */
+  }
+
+  .downloadButton {
+    font-size: 1.5rem; /* Adjust button font size */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+
+  .image-container {
+    margin: 1.5rem 0; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .secTitle h2 {
+    font-size: 1.2rem; /* Even smaller font size for very small devices */
+    margin: 2rem auto; /* Further reduce margin */
+  }
+
+  .downloadButton {
+    font-size: 1.2rem; /* Adjust button font size */
+    padding: 6px 12px; /* Adjust padding for very small screens */
+  }
+
+  .image-container {
+    margin: 1rem 0; /* Further adjust margin for very small screens */
+  }
 }

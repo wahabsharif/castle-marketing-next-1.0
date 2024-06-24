@@ -265,11 +265,12 @@
   }
 
   .circle-content h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .circle-content p {
-    font-size: 1rem;
+    font-size: 15px;
+    line-height: 1;
   }
 
   .card-text h2 {
