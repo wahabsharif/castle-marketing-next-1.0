@@ -12,8 +12,7 @@ const whatOffered = [
     bookingStartsFrom: "30 %",
     availableApartments: "Available",
     paymentPlanType: "12 Quarterly",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
+    description: "Empowering Lifestyles through Distinctive Investments",
   },
   {
     id: 2,
@@ -27,8 +26,7 @@ const whatOffered = [
     availableApartments: "Available",
     paymentPlanType: "12 Quarterly",
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
+    description: "Empowering Lifestyles through Distinctive Investments",
   },
   {
     id: 3,
@@ -42,8 +40,7 @@ const whatOffered = [
     availableApartments: "Available",
     paymentPlanType: "12 Quarterly",
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
+    description: "Empowering Lifestyles through Distinctive Investments",
   },
   {
     id: 4,
@@ -57,8 +54,7 @@ const whatOffered = [
     availableApartments: "Available",
     paymentPlanType: "12 Quarterly",
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
+    description: "Empowering Lifestyles through Distinctive Investments",
   },
 ];
 
