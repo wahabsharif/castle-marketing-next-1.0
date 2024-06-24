@@ -72,7 +72,11 @@ const WhatOffered = () => {
                   <h2>{getCategoryData(selectedCategory)?.title}</h2>
                 </div>
 
-                <p>{getCategoryData(selectedCategory)?.description}</p>
+                <p>
+                  <strong>
+                    {getCategoryData(selectedCategory)?.description}
+                  </strong>
+                </p>
                 {getCategoryData(selectedCategory)?.unitType && (
                   <p>
                     <strong>Unit Type:</strong>{" "}
