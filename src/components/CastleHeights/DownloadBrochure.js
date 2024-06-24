@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/styles/DownloadBrochure.module.css";
 import Image from "next/image";
-import CMProfileBanner from "@/images/castle-heights/castle-prifile-banner.png";
+import CMProfileBanner from "@/images/castle-heights/castle-profile-banner.png";
 
 const DownloadBrochure = () => {
   const handleDownload = () => {
