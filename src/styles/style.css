@@ -537,7 +537,7 @@ img {
   transition: all 300ms ease;
   transform: translatey(0px);
   animation: pulse 1.5s infinite;
-  box-shadow: 0 0 0 0 #ffaa17;
+  box-shadow: 0 0 0 0 #fdb730;
   -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
@@ -3596,7 +3596,7 @@ img.lazy-image.loaded {
 
 ***/
 .sec-title {
-  margin-top: 20px;
+  margin: 5rem auto;
   position: relative;
   margin-bottom: 50px;
 }

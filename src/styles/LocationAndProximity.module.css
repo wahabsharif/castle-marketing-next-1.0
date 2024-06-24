@@ -6,7 +6,7 @@
 }
 
 .secTitle {
-  margin-bottom: 20px;
+  margin: 5rem auto;
 }
 
 .buttonContainer {
@@ -20,7 +20,7 @@
   margin: 0 10px;
   font-size: 2rem;
   cursor: pointer;
-  background-color: #ffaa17;
+  background-color: #fdb730;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -34,7 +34,7 @@
 }
 
 .button:hover {
-  background-color: #ffaa17;
+  background-color: #fdb730;
 }
 
 .button.activeButton:hover {

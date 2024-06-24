@@ -30,7 +30,7 @@
   margin: 0 10px;
   font-size: 2rem;
   cursor: pointer;
-  background-color: #ffaa17;
+  background-color: #fdb730;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -40,7 +40,7 @@
 }
 
 .button-list button:hover {
-  background-color: #ffaa17;
+  background-color: #fdb730;
 }
 .button-list button::before {
   content: "";
@@ -131,7 +131,7 @@
   width: 300px; /* Adjust circle size */
   height: 300px; /* Adjust circle size */
   border-radius: 50%; /* Create circle shape */
-  border: 5px solid #ffaa17; /* Circle border */
+  border: 5px solid #fdb730; /* Circle border */
   position: relative; /* Position for shine effect */
   overflow: hidden; /* Hide overflowing shine effect */
   transition: border-color 0.3s ease; /* Smooth transition for border color */
@@ -143,7 +143,7 @@
 
 .circle-content {
   text-align: center;
-  color: #ffaa17;
+  color: #fdb730;
 }
 
 .circle-content h3 {
@@ -298,5 +298,5 @@
 }
 .title h2 {
   margin-left: 10px; /* Add margin between icon and text */
-  border-bottom: 2px solid #ffaa17;
+  border-bottom: 2px solid #fdb730;
 }

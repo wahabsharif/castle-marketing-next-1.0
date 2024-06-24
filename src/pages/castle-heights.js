@@ -14,6 +14,7 @@ import WhatOffered from "@/components/CastleHeights/WhatOffered";
 import SiteDevelopment from "@/components/CastleHeights/SiteDevelopment";
 import Amenities from "@/components/CastleHeights/Amenities";
 import LocationAndProximity from "@/components/CastleHeights/LocationAndProximity";
+import DownloadBrochure from "@/components/CastleHeights/DownloadBrochure";
 // import PaymentPlan from "@/components/CastleHeights/PaymentPlan";
 
 const CastleHeights = () => {
@@ -31,6 +32,7 @@ const CastleHeights = () => {
       <SiteDevelopment />
       <Amenities />
       <LocationAndProximity />
+      <DownloadBrochure />
       {/* <Intro /> */}
       {/* <PaymentPlan showTitle={false} isMore /> */}
       {/* <Details /> */}
