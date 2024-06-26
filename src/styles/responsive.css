@@ -873,6 +873,13 @@
   .comments-title h3 {
     font-size: 32px;
   }
+  .page-banner .banner-inner {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 3;
+    padding: 0;
+  }
 
   .page-banner h1 {
     font-size: 48px;
@@ -1181,6 +1188,14 @@
     padding: 70px 0px 80px;
   }
 
+  .page-banner .banner-inner {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 3;
+    padding: 0;
+  }
+
   .page-banner h1 {
     font-size: 48px;
     line-height: 1.1em;
@@ -1416,8 +1431,19 @@
     display: block;
   }
 
+  .page-banner .banner-inner {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 3;
+    padding: 0;
+  }
+
   .page-banner h1 {
     font-size: 42px;
+  }
+  .page-banner p {
+    font-size: 1rem;
   }
 
   .portfolio-masonary h3,

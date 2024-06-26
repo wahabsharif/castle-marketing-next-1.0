@@ -64,7 +64,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .secTitle h2 {
-    font-size: 1.5rem; /* Smaller font size on tablets and small devices */
+    font-size: 2rem; /* Smaller font size on tablets and small devices */
     margin: 3rem auto; /* Reduce margin for smaller screens */
   }
 
@@ -80,13 +80,14 @@
 
 @media (max-width: 480px) {
   .secTitle h2 {
-    font-size: 1.2rem; /* Even smaller font size for very small devices */
+    font-size: 2rem; /* Even smaller font size for very small devices */
     margin: 2rem auto; /* Further reduce margin */
   }
 
   .downloadButton {
     font-size: 1.2rem; /* Adjust button font size */
     padding: 6px 12px; /* Adjust padding for very small screens */
+    letter-spacing: 2px;
   }
 
   .image-container {
