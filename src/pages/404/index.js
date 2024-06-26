@@ -10,12 +10,12 @@ import React from "react";
 
 const NotFound = () => {
   return (
-    <Layout pageTitle=" | 404 Error">
+    <Layout pageTitle=" | Page Not Found">
       <Style />
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <Banner title="404 Error" />
+      <Banner title="Page Not Found" />
       <ErrorSection />
       <MainFooter />
     </Layout>
