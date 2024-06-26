@@ -11144,6 +11144,7 @@ img.lazy-image.loaded {
 .error-section {
   position: relative;
   background: #ffffff;
+  /* background: #032729; */
   padding: 120px 0px;
 }
 
@@ -11184,7 +11185,7 @@ img.lazy-image.loaded {
 
 .error-section h2 {
   font-weight: 400;
-  color: var(--thm-black);
+  color: var(--thm-base);
   line-height: 1em;
   margin-bottom: 0px;
   text-transform: uppercase;
@@ -11232,7 +11233,7 @@ img.lazy-image.loaded {
   height: 70px;
   display: block;
   font-size: 14px;
-  background: #f4f5f8;
+  background: wheat;
   color: var(--thm-text);
   border-radius: 7px;
   font-family: var(--thm-b-font);

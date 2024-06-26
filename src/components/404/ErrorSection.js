@@ -21,7 +21,8 @@ const ErrorSection = () => {
               src={image.src}
               id="error-404"
               className="img-fluid"
-              alt=""
+              alt="page-not-found"
+              width={500}
             />
           </div>
           <h2>{title}</h2>

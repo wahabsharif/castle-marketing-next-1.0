@@ -1,4 +1,5 @@
-import image from "@/images/icons/404-image.png";
+import image from "@/images/icons/detective-animation-404-error-page.gif";
+// import image from "@/images/icons/404-image.png";
 
 export const errorSection = {
   image,
